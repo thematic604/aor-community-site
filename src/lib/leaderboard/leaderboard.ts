@@ -1,3 +1,5 @@
+import {leaderboardFilters} from "./data/filter"
+
 export const LEADERBOARD_BASE_HREF = "https://www.funselektorfun.com/artofrally"
 
 export interface LeaderboardEntry {
@@ -15,4 +17,28 @@ export interface LeaderboardEntry {
 export interface LeaderboardResponse {
   result: number
   leaderboard: LeaderboardEntry[]
+}
+
+export function makeUrl({
+  area,
+  stage,
+  direction,
+  weather,
+  group,
+  filter,
+  platform,
+}: {
+  area: string
+  stage: number
+  direction: string
+  group: string
+  weather: string
+  platform: number
+  filter: number
+}) {
+  const url = `/leaderboard/${area}_Stage_${stage}_${direction}_${weather}_${group}/${filter}/${platform}`
+
+  console.log(url)
+
+  return url
 }

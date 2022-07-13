@@ -2,20 +2,15 @@
   import Image from "./Image.svelte"
   import type {Area} from "../leaderboard/data/stage/area"
   import StageSelector from "./StageSelector.svelte"
-  import StageForm from "./StageForm.svelte"
 
   export let area: Area
 
-  export let platform: number
-  export let weather: string
-  export let direction: boolean
-  export let group: string
+  export let stage: number
 </script>
 
 <section class="content">
   <h2 data-swiper-parallax="-50%">{area.name}</h2>
-  <StageSelector {area} {platform} {weather} {direction} {group} />
-  <StageForm bind:platform bind:weather bind:direction bind:group />
+  <StageSelector {area} bind:stage />
 
   <Image
     class="parallax-background"

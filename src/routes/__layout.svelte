@@ -23,7 +23,7 @@
     display: flex;
     flex-direction: column;
 
-    overflow: hidden;
+    // overflow: hidden;
     height: 100vh;
 
     color: white;

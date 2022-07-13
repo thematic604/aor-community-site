@@ -3,15 +3,20 @@
   import {leaderboardWeathers} from "../leaderboard/data/stage/weather"
   import {leaderboardDirection} from "../leaderboard/data/stage/direction"
   import {groups} from "../leaderboard/data/stage/group"
+  import {Swiper, SwiperSlide} from "swiper/svelte"
 
-  export let platform = 6
+  import "swiper/css"
+  import "swiper/css/navigation"
+  import {Navigation} from "swiper"
+
+  export let platform = 2
   export let weather = "Dry"
   let reverseChecked: boolean
   $: {
     direction = reverseChecked ? leaderboardDirection.Reverse : leaderboardDirection.Forward
   }
   export let direction: string
-  export let group = "GroupB"
+  export let group = groups[0].id
 </script>
 
 <form>
@@ -35,24 +40,45 @@
     <input type="checkbox" name="reverse" value="reverse" bind:checked={reverseChecked} />
   </fieldset>
 
-  <select bind:value={group}>
+  <Swiper
+    modules={[Navigation]}
+    slidesPerView={1}
+    centeredSlides={true}
+    navigation={true}
+    on:activeIndexChange={swiper => (group = groups[swiper.detail[0].activeIndex].id)}
+  >
     {#each groups as leaderboardGroup}
-      <option value={leaderboardGroup.id}>{leaderboardGroup.name.toLowerCase()}</option>
+      <SwiperSlide>
+        <p class="group">{leaderboardGroup.name}</p>
+      </SwiperSlide>
     {/each}
-  </select>
+  </Swiper>
 </form>
 
 <style lang="scss">
+  $font-size: 24px;
+
   form {
     margin-top: 16px;
     margin-inline: auto;
     width: fit-content;
 
-    -webkit-backdrop-filter: brightness(0.6);
-    backdrop-filter: brightness(0.6);
-
     border-radius: 4px;
     box-sizing: border-box;
+  }
+
+  form > :global(.swiper) {
+    --swiper-navigation-size: 24px;
+    font-weight: bold;
+    font-size: $font-size;
+    text-transform: lowercase;
+    width: 256px;
+  }
+
+  .group {
+    width: fit-content;
+    margin-inline: auto;
+    margin-block: 16px;
   }
 
   fieldset {
@@ -82,7 +108,7 @@
     cursor: pointer;
     color: white;
 
-    font-size: 24px;
+    font-size: $font-size;
     font-weight: bold;
 
     content: attr(value);
@@ -98,6 +124,7 @@
 
   @media (hover: hover) {
     input:hover {
+      transform: translateY(-2px);
       filter: brightness(0.9);
     }
   }

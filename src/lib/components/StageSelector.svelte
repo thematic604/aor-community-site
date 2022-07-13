@@ -6,45 +6,45 @@
   import {EffectCards, Mousewheel} from "swiper"
   import type {Area} from "../leaderboard/data/stage/area"
   import Image from "./Image.svelte"
-  import {LEADERBOARD_BASE_HREF} from "../leaderboard/leaderboard.js"
-  import {leaderboardFilters} from "../leaderboard/data/filter.js"
 
   export let area: Area
-
-  export let direction: string
-  export let weather: string
-  export let platform: string
-  export let group: string
+  export let stage = area.stages[0].id
 </script>
 
 <div class="container">
-  <Swiper modules={[EffectCards, Mousewheel]} effect="cards" nested={true} mousewheel>
+  <Swiper
+    modules={[EffectCards, Mousewheel]}
+    effect="cards"
+    nested={true}
+    on:activeIndexChange={swiper => {
+      stage = area.stages[swiper.detail[0].activeIndex].id
+    }}
+    mousewheel
+  >
     {#each area.stages as stage}
       <SwiperSlide>
-        <a
-          href="/leaderboard/{area.id}_Stage_{stage.id}_{direction}_{weather}_{group}/{leaderboardFilters.Top}/{platform}"
-        >
-          <Image
-            src="stages/{area.name.toLowerCase()}/cover/{area.name.toLowerCase()}_{stage.id}"
-            alt={area.name}
-            sizes={[256, 128, 480, 512]}
-          />
-          <Image
-            class="minimap"
-            src="stages/{area.name.toLowerCase()}/minimap/{area.name}{stage.id}"
-            alt={area.name}
-            sizes={[256, 128, 480, 512]}
-          />
-          <p>{stage.name}</p>
-        </a>
+        <Image
+          src="stages/{area.name.toLowerCase()}/cover/{area.name.toLowerCase()}_{stage.id}"
+          alt={area.name}
+          sizes={[256, 128, 480, 512]}
+        />
+        <Image
+          class="minimap"
+          src="stages/{area.name.toLowerCase()}/minimap/{area.name}{stage.id}"
+          alt={area.name}
+          sizes={[256, 128, 480, 512]}
+        />
+        <p>{stage.name}</p>
       </SwiperSlide>
     {/each}
   </Swiper>
 </div>
 
 <style lang="scss">
+  @import "../style/stage-slide";
+
   .container {
-    width: 200px;
+    width: 240px;
     margin-inline: auto;
 
     color: black;
@@ -52,8 +52,7 @@
     font-weight: bold;
 
     > :global(.swiper > .swiper-wrapper > .swiper-slide) {
-      width: 120px;
-      height: 240px;
+      height: $stage-slide-height;
       padding: 8px;
       background-color: white;
     }
@@ -64,13 +63,14 @@
   }
 
   :global(img) {
+    height: calc(100% - 40px);
     width: 100%;
-    aspect-ratio: 1;
     object-fit: cover;
   }
 
   :global(img.minimap) {
     position: absolute;
+    object-fit: contain;
     top: 0;
     left: 0;
   }
