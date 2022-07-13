@@ -1,0 +1,7 @@
+---
+title: Splits
+url: https://github.com/Theaninova/ArtOfRallySplits
+release: https://github.com/Theaninova/ArtOfRallySplits/releases/latest
+---
+
+# Splits
