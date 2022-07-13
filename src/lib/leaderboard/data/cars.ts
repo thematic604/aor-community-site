@@ -23,3 +23,17 @@ export const cars = carsRaw.reduce<Record<string, typeof carsRaw>>((acc, car) =>
 export function getCarById(group: string, id: number) {
   return cars[group][id]
 }
+
+export type Car = typeof carsRaw[0]
+
+export const carCountries = {
+  ENGLAND: "en",
+  FRANCE: "fr",
+  GERMANY: "de",
+  ITALY: "it",
+  JAPAN: "jp",
+  CZECH_REPUBLIC: "cz",
+  SWEDEN: "se",
+  RUSSIA: "ru",
+  AMERICA: "us",
+}

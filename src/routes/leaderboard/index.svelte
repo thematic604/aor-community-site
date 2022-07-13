@@ -16,10 +16,6 @@
   let stage: number
 </script>
 
-<section class="title">
-  <h1>leaderboard</h1>
-</section>
-
 <section class="swiper-container">
   <Swiper
     modules={[Parallax, Navigation, HashNavigation]}
@@ -61,16 +57,6 @@
     padding: 2px;
 
     overflow-y: auto;
-  }
-
-  .title {
-    padding: 8px;
-    padding-inline: 16px;
-    background: #000714;
-
-    h1 {
-      font-size: 24px;
-    }
   }
 
   .swiper-container {

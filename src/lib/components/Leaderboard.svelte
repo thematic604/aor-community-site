@@ -25,10 +25,10 @@
     <table transition:fade>
       {#each leaderboard.leaderboard as entry}
         <tr>
-          <td>{entry.rank}</td>
+          <th>{entry.rank}</th>
           <td>{entry.userName || entry.platformUserName}</td>
           <td class="time">{formatTime(entry.score)}</td>
-          <td>{getCarById(group, entry.carID).name}</td>
+          <td><a href="/car/{group}/{entry.carID}">{getCarById(group, entry.carID).name}</a></td>
           <td
             ><img
               class="flag-img"
@@ -61,6 +61,11 @@
     padding: 4px;
   }
 
+  a {
+    color: white;
+    text-decoration-color: #e0e0e0;
+  }
+
   .transition-container {
     display: grid;
     grid-template-columns: 1fr;
@@ -77,7 +82,7 @@
   }
 
   td {
-    max-width: min(120px, 15vw);
+    max-width: min(100px, 15vw);
     padding: 2px;
     white-space: nowrap;
     overflow: hidden;

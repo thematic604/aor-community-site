@@ -2,6 +2,10 @@
   import "../lib/style/font.scss"
 </script>
 
+<nav class="title">
+  <h1>leaderboard</h1>
+</nav>
+
 <main>
   <slot />
 </main>
@@ -11,6 +15,17 @@
   @layer base {
     html {
       -webkit-tap-highlight-color: transparent;
+    }
+  }
+
+  nav {
+    color: white;
+    padding: 8px;
+    padding-inline: 16px;
+    background: #000714;
+
+    h1 {
+      font-size: 24px;
     }
   }
 
