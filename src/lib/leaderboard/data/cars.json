@@ -1,0 +1,2482 @@
+[
+  {
+    "name": "the esky v1",
+    "carNameIndex": 0,
+    "prefabName": "Car_Escort_V1",
+    "livery": {
+      "Name": "1",
+      "TexturePath": "Prefabs/Cars/Car_Escort_V1/Liveries/1",
+      "Type": "Standard",
+      "CarPrefabName": "Car_Escort_V1"
+    },
+    "carClass": "GROUP_2",
+    "carStats": {
+      "YearUnlocked": 0,
+      "IsUnlocked": true,
+      "YearBonusUnlocked": 1968,
+      "IsBonusUnlocked": true,
+      "UnlockedSaveConstant": null,
+      "BonusUnlockedSaveConstant": "UNLOCKABLE_1968_BONUS",
+      "Engine": "inline 4 - 110 hp",
+      "Gears": 4,
+      "Transmission": "RWD",
+      "Aspiration": "NATURAL",
+      "Country": "ENGLAND",
+      "LoreKey": "car_escort_v1",
+      "StatsOdometer": "esky_v1_odo",
+      "StatsPodiums": "esky_v1_pod",
+      "StatsEvents": "esky_v1_events"
+    },
+    "performancePartsCondition": {
+      "Engine": 1.0,
+      "Radiator": 1.0,
+      "Turbo": 1.0,
+      "Transmission": 1.0,
+      "Aerodynamics": 1.0,
+      "Brakes": 1.0,
+      "Steering": 1.0,
+      "SteeringAlignment": 0.0,
+      "Dirtyness": 0.0
+    }
+  },
+  {
+    "name": "the meanie",
+    "carNameIndex": 1,
+    "prefabName": "Car_Mini",
+    "livery": {
+      "Name": "1",
+      "TexturePath": "Prefabs/Cars/Car_Mini/Liveries/1",
+      "Type": "Standard",
+      "CarPrefabName": "Car_Mini"
+    },
+    "carClass": "GROUP_2",
+    "carStats": {
+      "YearUnlocked": 0,
+      "IsUnlocked": true,
+      "YearBonusUnlocked": 1969,
+      "IsBonusUnlocked": true,
+      "UnlockedSaveConstant": null,
+      "BonusUnlockedSaveConstant": "UNLOCKABLE_1969_BONUS",
+      "Engine": "inline 4 - 90 hp",
+      "Gears": 4,
+      "Transmission": "FWD",
+      "Aspiration": "NATURAL",
+      "Country": "ENGLAND",
+      "LoreKey": "car_mini",
+      "StatsOdometer": "piccolo_odo",
+      "StatsPodiums": "piccolo_pod",
+      "StatsEvents": "piccolo_events"
+    },
+    "performancePartsCondition": {
+      "Engine": 1.0,
+      "Radiator": 1.0,
+      "Turbo": 1.0,
+      "Transmission": 1.0,
+      "Aerodynamics": 1.0,
+      "Brakes": 1.0,
+      "Steering": 1.0,
+      "SteeringAlignment": 0.0,
+      "Dirtyness": 0.0
+    }
+  },
+  {
+    "name": "la montaine",
+    "carNameIndex": 2,
+    "prefabName": "Car_Alpine",
+    "livery": {
+      "Name": "1",
+      "TexturePath": "Prefabs/Cars/Car_Alpine/Liveries/1",
+      "Type": "Standard",
+      "CarPrefabName": "Car_Alpine"
+    },
+    "carClass": "GROUP_2",
+    "carStats": {
+      "YearUnlocked": 1967,
+      "IsUnlocked": true,
+      "YearBonusUnlocked": 1971,
+      "IsBonusUnlocked": false,
+      "UnlockedSaveConstant": "UNLOCKABLE_1967",
+      "BonusUnlockedSaveConstant": "UNLOCKABLE_1971_BONUS",
+      "Engine": "inline 4 - 100 hp",
+      "Gears": 4,
+      "Transmission": "RWD",
+      "Aspiration": "NATURAL",
+      "Country": "FRANCE",
+      "LoreKey": "car_alpine",
+      "StatsOdometer": "montaine_odo",
+      "StatsPodiums": "montaine_pod",
+      "StatsEvents": "montaine_events"
+    },
+    "performancePartsCondition": {
+      "Engine": 1.0,
+      "Radiator": 1.0,
+      "Turbo": 1.0,
+      "Transmission": 1.0,
+      "Aerodynamics": 1.0,
+      "Brakes": 1.0,
+      "Steering": 1.0,
+      "SteeringAlignment": 0.0,
+      "Dirtyness": 0.0
+    }
+  },
+  {
+    "name": "das 220",
+    "carNameIndex": 3,
+    "prefabName": "Car_2002",
+    "livery": {
+      "Name": "1",
+      "TexturePath": "Prefabs/Cars/Car_2002/Liveries/1",
+      "Type": "Standard",
+      "CarPrefabName": "Car_2002"
+    },
+    "carClass": "GROUP_2",
+    "carStats": {
+      "YearUnlocked": 1968,
+      "IsUnlocked": true,
+      "YearBonusUnlocked": 1967,
+      "IsBonusUnlocked": true,
+      "UnlockedSaveConstant": "UNLOCKABLE_1968",
+      "BonusUnlockedSaveConstant": "UNLOCKABLE_1967_BONUS",
+      "Engine": "inline 4 - 100 hp",
+      "Gears": 4,
+      "Transmission": "RWD",
+      "Aspiration": "NATURAL",
+      "Country": "GERMANY",
+      "LoreKey": "car_2002",
+      "StatsOdometer": "_220_odo",
+      "StatsPodiums": "_220_pod",
+      "StatsEvents": "_220_events"
+    },
+    "performancePartsCondition": {
+      "Engine": 1.0,
+      "Radiator": 1.0,
+      "Turbo": 1.0,
+      "Transmission": 1.0,
+      "Aerodynamics": 1.0,
+      "Brakes": 1.0,
+      "Steering": 1.0,
+      "SteeringAlignment": 0.0,
+      "Dirtyness": 0.0
+    }
+  },
+  {
+    "name": "das 119i",
+    "carNameIndex": 4,
+    "prefabName": "Car_Porsche_911_60",
+    "livery": {
+      "Name": "1",
+      "TexturePath": "Prefabs/Cars/Car_Porsche_911_60/Liveries/1",
+      "Type": "Standard",
+      "CarPrefabName": "Car_Porsche_911_60"
+    },
+    "carClass": "GROUP_2",
+    "carStats": {
+      "YearUnlocked": 1969,
+      "IsUnlocked": true,
+      "YearBonusUnlocked": 1970,
+      "IsBonusUnlocked": false,
+      "UnlockedSaveConstant": "UNLOCKABLE_1969",
+      "BonusUnlockedSaveConstant": "UNLOCKABLE_1970_BONUS",
+      "Engine": "flat 6 - 100 hp",
+      "Gears": 4,
+      "Transmission": "RWD",
+      "Aspiration": "NATURAL",
+      "Country": "GERMANY",
+      "LoreKey": "car_porsche_911_60",
+      "StatsOdometer": "_119i_odo",
+      "StatsPodiums": "_119i_pod",
+      "StatsEvents": "_119i_events"
+    },
+    "performancePartsCondition": {
+      "Engine": 1.0,
+      "Radiator": 1.0,
+      "Turbo": 1.0,
+      "Transmission": 1.0,
+      "Aerodynamics": 1.0,
+      "Brakes": 1.0,
+      "Steering": 1.0,
+      "SteeringAlignment": 0.0,
+      "Dirtyness": 0.0
+    }
+  },
+  {
+    "name": "le gorde",
+    "carNameIndex": 5,
+    "prefabName": "Car_Renault8",
+    "livery": {
+      "Name": "1",
+      "TexturePath": "Prefabs/Cars/Car_Renault8/Liveries/1",
+      "Type": "Standard",
+      "CarPrefabName": "Car_Renault8"
+    },
+    "carClass": "GROUP_2",
+    "carStats": {
+      "YearUnlocked": 0,
+      "IsUnlocked": true,
+      "YearBonusUnlocked": 1967,
+      "IsBonusUnlocked": true,
+      "UnlockedSaveConstant": null,
+      "BonusUnlockedSaveConstant": "UNLOCKABLE_1967_BONUS",
+      "Engine": "inline 4 - 90 hp",
+      "Gears": 4,
+      "Transmission": "RWD",
+      "Aspiration": "NATURAL",
+      "Country": "FRANCE",
+      "LoreKey": "car_renault8",
+      "StatsOdometer": "gorde_odo",
+      "StatsPodiums": "gorde_pod",
+      "StatsEvents": "gorde_events"
+    },
+    "performancePartsCondition": {
+      "Engine": 1.0,
+      "Radiator": 1.0,
+      "Turbo": 1.0,
+      "Transmission": 1.0,
+      "Aerodynamics": 1.0,
+      "Brakes": 1.0,
+      "Steering": 1.0,
+      "SteeringAlignment": 0.0,
+      "Dirtyness": 0.0
+    }
+  },
+  {
+    "name": "la regina",
+    "carNameIndex": 6,
+    "prefabName": "Car_Fulvia",
+    "livery": {
+      "Name": "1",
+      "TexturePath": "Prefabs/Cars/Car_Fulvia/Liveries/1",
+      "Type": "Standard",
+      "CarPrefabName": "Car_Fulvia"
+    },
+    "carClass": "GROUP_2",
+    "carStats": {
+      "YearUnlocked": 0,
+      "IsUnlocked": true,
+      "YearBonusUnlocked": 1968,
+      "IsBonusUnlocked": true,
+      "UnlockedSaveConstant": null,
+      "BonusUnlockedSaveConstant": "UNLOCKABLE_1968_BONUS",
+      "Engine": "v4 - 89 hp",
+      "Gears": 4,
+      "Transmission": "FWD",
+      "Aspiration": "NATURAL",
+      "Country": "ITALY",
+      "LoreKey": "car_fulvia",
+      "StatsOdometer": "regina_odo",
+      "StatsPodiums": "regina_pod",
+      "StatsEvents": "regina_events"
+    },
+    "performancePartsCondition": {
+      "Engine": 1.0,
+      "Radiator": 1.0,
+      "Turbo": 1.0,
+      "Transmission": 1.0,
+      "Aerodynamics": 1.0,
+      "Brakes": 1.0,
+      "Steering": 1.0,
+      "SteeringAlignment": 0.0,
+      "Dirtyness": 0.0
+    }
+  },
+  {
+    "name": "the esky v2",
+    "carNameIndex": 0,
+    "prefabName": "Car_Escort_V2",
+    "livery": {
+      "Name": "1",
+      "TexturePath": "Prefabs/Cars/Car_Escort_V2/Liveries/1",
+      "Type": "Standard",
+      "CarPrefabName": "Car_Escort_V2"
+    },
+    "carClass": "GROUP_3",
+    "carStats": {
+      "YearUnlocked": 0,
+      "IsUnlocked": true,
+      "YearBonusUnlocked": 1973,
+      "IsBonusUnlocked": false,
+      "UnlockedSaveConstant": null,
+      "BonusUnlockedSaveConstant": "UNLOCKABLE_1973_BONUS",
+      "Engine": "inline 4 - 210 hp",
+      "Gears": 5,
+      "Transmission": "RWD",
+      "Aspiration": "NATURAL",
+      "Country": "ENGLAND",
+      "LoreKey": "car_escort_v2",
+      "StatsOdometer": "esky_v2_odo",
+      "StatsPodiums": "esky_v2_pod",
+      "StatsEvents": "esky_v2_events"
+    },
+    "performancePartsCondition": {
+      "Engine": 1.0,
+      "Radiator": 1.0,
+      "Turbo": 1.0,
+      "Transmission": 1.0,
+      "Aerodynamics": 1.0,
+      "Brakes": 1.0,
+      "Steering": 1.0,
+      "SteeringAlignment": 0.0,
+      "Dirtyness": 0.0
+    }
+  },
+  {
+    "name": "il nonno 313",
+    "carNameIndex": 1,
+    "prefabName": "Car_Fiat_131",
+    "livery": {
+      "Name": "1",
+      "TexturePath": "Prefabs/Cars/Car_Fiat_131/Liveries/1",
+      "Type": "Standard",
+      "CarPrefabName": "Car_Fiat_131"
+    },
+    "carClass": "GROUP_3",
+    "carStats": {
+      "YearUnlocked": 0,
+      "IsUnlocked": true,
+      "YearBonusUnlocked": 1972,
+      "IsBonusUnlocked": false,
+      "UnlockedSaveConstant": null,
+      "BonusUnlockedSaveConstant": "UNLOCKABLE_1972_BONUS",
+      "Engine": "inline 4 - 180 hp",
+      "Gears": 5,
+      "Transmission": "RWD",
+      "Aspiration": "NATURAL",
+      "Country": "ITALY",
+      "LoreKey": "car_fiat_131",
+      "StatsOdometer": "nonno_odo",
+      "StatsPodiums": "nonno_pod",
+      "StatsEvents": "nonno_events"
+    },
+    "performancePartsCondition": {
+      "Engine": 1.0,
+      "Radiator": 1.0,
+      "Turbo": 1.0,
+      "Transmission": 1.0,
+      "Aerodynamics": 1.0,
+      "Brakes": 1.0,
+      "Steering": 1.0,
+      "SteeringAlignment": 0.0,
+      "Dirtyness": 0.0
+    }
+  },
+  {
+    "name": "the rotary 3",
+    "carNameIndex": 2,
+    "prefabName": "Car_RX3",
+    "livery": {
+      "Name": "1",
+      "TexturePath": "Prefabs/Cars/Car_RX3/Liveries/1",
+      "Type": "Standard",
+      "CarPrefabName": "Car_RX3"
+    },
+    "carClass": "GROUP_3",
+    "carStats": {
+      "YearUnlocked": 1970,
+      "IsUnlocked": false,
+      "YearBonusUnlocked": 1977,
+      "IsBonusUnlocked": false,
+      "UnlockedSaveConstant": "UNLOCKABLE_1970",
+      "BonusUnlockedSaveConstant": "UNLOCKABLE_1977_BONUS",
+      "Engine": "2 rotor - 200 hp",
+      "Gears": 5,
+      "Transmission": "RWD",
+      "Aspiration": "NATURAL",
+      "Country": "JAPAN",
+      "LoreKey": "car_rx3",
+      "StatsOdometer": "rotary3_odo",
+      "StatsPodiums": "rotary3_pod",
+      "StatsEvents": "rotary3_events"
+    },
+    "performancePartsCondition": {
+      "Engine": 1.0,
+      "Radiator": 1.0,
+      "Turbo": 1.0,
+      "Transmission": 1.0,
+      "Aerodynamics": 1.0,
+      "Brakes": 1.0,
+      "Steering": 1.0,
+      "SteeringAlignment": 0.0,
+      "Dirtyness": 0.0
+    }
+  },
+  {
+    "name": "la wedge",
+    "carNameIndex": 3,
+    "prefabName": "Car_Stratos",
+    "livery": {
+      "Name": "1",
+      "TexturePath": "Prefabs/Cars/Car_Stratos/Liveries/1",
+      "Type": "Standard",
+      "CarPrefabName": "Car_Stratos"
+    },
+    "carClass": "GROUP_3",
+    "carStats": {
+      "YearUnlocked": 1972,
+      "IsUnlocked": false,
+      "YearBonusUnlocked": 1974,
+      "IsBonusUnlocked": false,
+      "UnlockedSaveConstant": "UNLOCKABLE_1972",
+      "BonusUnlockedSaveConstant": "UNLOCKABLE_1974_BONUS",
+      "Engine": "v6 - 200 hp",
+      "Gears": 5,
+      "Transmission": "RWD",
+      "Aspiration": "NATURAL",
+      "Country": "ITALY",
+      "LoreKey": "car_stratos",
+      "StatsOdometer": "wedge_odo",
+      "StatsPodiums": "wedge_pod",
+      "StatsEvents": "wedge_events"
+    },
+    "performancePartsCondition": {
+      "Engine": 1.0,
+      "Radiator": 1.0,
+      "Turbo": 1.0,
+      "Transmission": 1.0,
+      "Aerodynamics": 1.0,
+      "Brakes": 1.0,
+      "Steering": 1.0,
+      "SteeringAlignment": 0.0,
+      "Dirtyness": 0.0
+    }
+  },
+  {
+    "name": "il cavallo 803",
+    "carNameIndex": 4,
+    "prefabName": "Car_F308",
+    "livery": {
+      "Name": "1",
+      "TexturePath": "Prefabs/Cars/Car_F308/Liveries/1",
+      "Type": "Standard",
+      "CarPrefabName": "Car_F308"
+    },
+    "carClass": "GROUP_3",
+    "carStats": {
+      "YearUnlocked": 1973,
+      "IsUnlocked": false,
+      "YearBonusUnlocked": 1975,
+      "IsBonusUnlocked": false,
+      "UnlockedSaveConstant": "UNLOCKABLE_1973",
+      "BonusUnlockedSaveConstant": "UNLOCKABLE_1975_BONUS",
+      "Engine": "v8 - 230 hp",
+      "Gears": 5,
+      "Transmission": "RWD",
+      "Aspiration": "NATURAL",
+      "Country": "ITALY",
+      "LoreKey": "car_f308",
+      "StatsOdometer": "cavallo_odo",
+      "StatsPodiums": "cavallo_pod",
+      "StatsEvents": "cavallo_events"
+    },
+    "performancePartsCondition": {
+      "Engine": 1.0,
+      "Radiator": 1.0,
+      "Turbo": 1.0,
+      "Transmission": 1.0,
+      "Aerodynamics": 1.0,
+      "Brakes": 1.0,
+      "Steering": 1.0,
+      "SteeringAlignment": 0.0,
+      "Dirtyness": 0.0
+    }
+  },
+  {
+    "name": "das 119e",
+    "carNameIndex": 5,
+    "prefabName": "Car_Porsche_911_70",
+    "livery": {
+      "Name": "1",
+      "TexturePath": "Prefabs/Cars/Car_Porsche_911_70/Liveries/1",
+      "Type": "Standard",
+      "CarPrefabName": "Car_Porsche_911_70"
+    },
+    "carClass": "GROUP_3",
+    "carStats": {
+      "YearUnlocked": 1974,
+      "IsUnlocked": false,
+      "YearBonusUnlocked": 1976,
+      "IsBonusUnlocked": false,
+      "UnlockedSaveConstant": "UNLOCKABLE_1974",
+      "BonusUnlockedSaveConstant": "UNLOCKABLE_1976_BONUS",
+      "Engine": "flat 6 - 190 hp",
+      "Gears": 5,
+      "Transmission": "RWD",
+      "Aspiration": "NATURAL",
+      "Country": "GERMANY",
+      "LoreKey": "car_porsche_911_70",
+      "StatsOdometer": "_119e_odo",
+      "StatsPodiums": "_119e_pod",
+      "StatsEvents": "_119e_events"
+    },
+    "performancePartsCondition": {
+      "Engine": 1.0,
+      "Radiator": 1.0,
+      "Turbo": 1.0,
+      "Transmission": 1.0,
+      "Aerodynamics": 1.0,
+      "Brakes": 1.0,
+      "Steering": 1.0,
+      "SteeringAlignment": 0.0,
+      "Dirtyness": 0.0
+    }
+  },
+  {
+    "name": "la hepta",
+    "carNameIndex": 6,
+    "prefabName": "Car_Renault17",
+    "livery": {
+      "Name": "1",
+      "TexturePath": "Prefabs/Cars/Car_Renault17/Liveries/1",
+      "Type": "Standard",
+      "CarPrefabName": "Car_Renault17"
+    },
+    "carClass": "GROUP_3",
+    "carStats": {
+      "YearUnlocked": 0,
+      "IsUnlocked": true,
+      "YearBonusUnlocked": 1970,
+      "IsBonusUnlocked": false,
+      "UnlockedSaveConstant": null,
+      "BonusUnlockedSaveConstant": "UNLOCKABLE_1970_BONUS",
+      "Engine": "inline 4 - 180 hp",
+      "Gears": 5,
+      "Transmission": "RWD",
+      "Aspiration": "NATURAL",
+      "Country": "FRANCE",
+      "LoreKey": "car_renault17",
+      "StatsOdometer": "hepta_odo",
+      "StatsPodiums": "hepta_pod",
+      "StatsEvents": "hepta_events"
+    },
+    "performancePartsCondition": {
+      "Engine": 1.0,
+      "Radiator": 1.0,
+      "Turbo": 1.0,
+      "Transmission": 1.0,
+      "Aerodynamics": 1.0,
+      "Brakes": 1.0,
+      "Steering": 1.0,
+      "SteeringAlignment": 0.0,
+      "Dirtyness": 0.0
+    }
+  },
+  {
+    "name": "the pebble v1",
+    "carNameIndex": 7,
+    "prefabName": "Car_Skoda200rs",
+    "livery": {
+      "Name": "1",
+      "TexturePath": "Prefabs/Cars/Car_Skoda200rs/Liveries/1",
+      "Type": "Standard",
+      "CarPrefabName": "Car_Skoda200rs"
+    },
+    "carClass": "GROUP_3",
+    "carStats": {
+      "YearUnlocked": 0,
+      "IsUnlocked": true,
+      "YearBonusUnlocked": 1969,
+      "IsBonusUnlocked": true,
+      "UnlockedSaveConstant": null,
+      "BonusUnlockedSaveConstant": "UNLOCKABLE_1969_BONUS",
+      "Engine": "inline 4 - 180 hp",
+      "Gears": 5,
+      "Transmission": "RWD",
+      "Aspiration": "NATURAL",
+      "Country": "CZECH_REPUBLIC",
+      "LoreKey": "car_skoda200rs",
+      "StatsOdometer": "pebble_v1_odo",
+      "StatsPodiums": "pebble_v1_pod",
+      "StatsEvents": "pebble_v1_events"
+    },
+    "performancePartsCondition": {
+      "Engine": 1.0,
+      "Radiator": 1.0,
+      "Turbo": 1.0,
+      "Transmission": 1.0,
+      "Aerodynamics": 1.0,
+      "Brakes": 1.0,
+      "Steering": 1.0,
+      "SteeringAlignment": 0.0,
+      "Dirtyness": 0.0
+    }
+  },
+  {
+    "name": "the pebble v2",
+    "carNameIndex": 8,
+    "prefabName": "Car_Skoda130rs",
+    "livery": {
+      "Name": "1",
+      "TexturePath": "Prefabs/Cars/Car_Skoda130rs/Liveries/1",
+      "Type": "Standard",
+      "CarPrefabName": "Car_Skoda130rs"
+    },
+    "carClass": "GROUP_3",
+    "carStats": {
+      "YearUnlocked": 0,
+      "IsUnlocked": true,
+      "YearBonusUnlocked": 1971,
+      "IsBonusUnlocked": false,
+      "UnlockedSaveConstant": null,
+      "BonusUnlockedSaveConstant": "UNLOCKABLE_1971_BONUS",
+      "Engine": "inline 4 - 185 hp",
+      "Gears": 5,
+      "Transmission": "RWD",
+      "Aspiration": "NATURAL",
+      "Country": "CZECH_REPUBLIC",
+      "LoreKey": "car_skoda130rs",
+      "StatsOdometer": "pebble_v2_odo",
+      "StatsPodiums": "pebble_v2_pod",
+      "StatsEvents": "pebble_v2_events"
+    },
+    "performancePartsCondition": {
+      "Engine": 1.0,
+      "Radiator": 1.0,
+      "Turbo": 1.0,
+      "Transmission": 1.0,
+      "Aerodynamics": 1.0,
+      "Brakes": 1.0,
+      "Steering": 1.0,
+      "SteeringAlignment": 0.0,
+      "Dirtyness": 0.0
+    }
+  },
+  {
+    "name": "the zetto",
+    "carNameIndex": 9,
+    "prefabName": "Car_Datsun240z",
+    "livery": {
+      "Name": "1",
+      "TexturePath": "Prefabs/Cars/Car_Datsun240z/Liveries/1",
+      "Type": "Standard",
+      "CarPrefabName": "Car_Datsun240z"
+    },
+    "carClass": "GROUP_3",
+    "carStats": {
+      "YearUnlocked": 0,
+      "IsUnlocked": true,
+      "YearBonusUnlocked": 1975,
+      "IsBonusUnlocked": false,
+      "UnlockedSaveConstant": null,
+      "BonusUnlockedSaveConstant": "UNLOCKABLE_1975_BONUS",
+      "Engine": "inline 6 - 190 hp",
+      "Gears": 5,
+      "Transmission": "RWD",
+      "Aspiration": "NATURAL",
+      "Country": "JAPAN",
+      "LoreKey": "car_datsun240z",
+      "StatsOdometer": "zetto_odo",
+      "StatsPodiums": "zetto_pod",
+      "StatsEvents": "zetto_events"
+    },
+    "performancePartsCondition": {
+      "Engine": 1.0,
+      "Radiator": 1.0,
+      "Turbo": 1.0,
+      "Transmission": 1.0,
+      "Aerodynamics": 1.0,
+      "Brakes": 1.0,
+      "Steering": 1.0,
+      "SteeringAlignment": 0.0,
+      "Dirtyness": 0.0
+    }
+  },
+  {
+    "name": "le cinq",
+    "carNameIndex": 0,
+    "prefabName": "Car_Renault5",
+    "livery": {
+      "Name": "1",
+      "TexturePath": "Prefabs/Cars/Car_Renault5/Liveries/1",
+      "Type": "Standard",
+      "CarPrefabName": "Car_Renault5"
+    },
+    "carClass": "GROUP_4",
+    "carStats": {
+      "YearUnlocked": 0,
+      "IsUnlocked": true,
+      "YearBonusUnlocked": 1978,
+      "IsBonusUnlocked": false,
+      "UnlockedSaveConstant": null,
+      "BonusUnlockedSaveConstant": "UNLOCKABLE_1978_BONUS",
+      "Engine": "inline 4 - 300 hp",
+      "Gears": 5,
+      "Transmission": "RWD",
+      "Aspiration": "TURBOCHARGED",
+      "Country": "FRANCE",
+      "LoreKey": "car_renault5",
+      "StatsOdometer": "cinq_odo",
+      "StatsPodiums": "cinq_pod",
+      "StatsEvents": "cinq_events"
+    },
+    "performancePartsCondition": {
+      "Engine": 1.0,
+      "Radiator": 1.0,
+      "Turbo": 1.0,
+      "Transmission": 1.0,
+      "Aerodynamics": 1.0,
+      "Brakes": 1.0,
+      "Steering": 1.0,
+      "SteeringAlignment": 0.0,
+      "Dirtyness": 0.0
+    }
+  },
+  {
+    "name": "das whip",
+    "carNameIndex": 1,
+    "prefabName": "Car_M3",
+    "livery": {
+      "Name": "1",
+      "TexturePath": "Prefabs/Cars/Car_M3/Liveries/1",
+      "Type": "Standard",
+      "CarPrefabName": "Car_M3"
+    },
+    "carClass": "GROUP_4",
+    "carStats": {
+      "YearUnlocked": 0,
+      "IsUnlocked": true,
+      "YearBonusUnlocked": 1977,
+      "IsBonusUnlocked": false,
+      "UnlockedSaveConstant": null,
+      "BonusUnlockedSaveConstant": "UNLOCKABLE_1977_BONUS",
+      "Engine": "inline 4 - 290 hp",
+      "Gears": 5,
+      "Transmission": "RWD",
+      "Aspiration": "NATURAL",
+      "Country": "GERMANY",
+      "LoreKey": "car_m3",
+      "StatsOdometer": "whip_odo",
+      "StatsPodiums": "whip_pod",
+      "StatsEvents": "whip_events"
+    },
+    "performancePartsCondition": {
+      "Engine": 1.0,
+      "Radiator": 1.0,
+      "Turbo": 1.0,
+      "Transmission": 1.0,
+      "Aerodynamics": 1.0,
+      "Brakes": 1.0,
+      "Steering": 1.0,
+      "SteeringAlignment": 0.0,
+      "Dirtyness": 0.0
+    }
+  },
+  {
+    "name": "turbo brick",
+    "carNameIndex": 2,
+    "prefabName": "Car_240",
+    "livery": {
+      "Name": "1",
+      "TexturePath": "Prefabs/Cars/Car_240/Liveries/1",
+      "Type": "Standard",
+      "CarPrefabName": "Car_240"
+    },
+    "carClass": "GROUP_4",
+    "carStats": {
+      "YearUnlocked": 0,
+      "IsUnlocked": true,
+      "YearBonusUnlocked": 1981,
+      "IsBonusUnlocked": false,
+      "UnlockedSaveConstant": null,
+      "BonusUnlockedSaveConstant": "UNLOCKABLE_1981_BONUS",
+      "Engine": "inline 4 - 330 hp",
+      "Gears": 5,
+      "Transmission": "RWD",
+      "Aspiration": "TURBOCHARGED",
+      "Country": "SWEDEN",
+      "LoreKey": "car_240",
+      "StatsOdometer": "turbobrick_odo",
+      "StatsPodiums": "turbobrick_pod",
+      "StatsEvents": "turbobrick_events"
+    },
+    "performancePartsCondition": {
+      "Engine": 1.0,
+      "Radiator": 1.0,
+      "Turbo": 1.0,
+      "Transmission": 1.0,
+      "Aerodynamics": 1.0,
+      "Brakes": 1.0,
+      "Steering": 1.0,
+      "SteeringAlignment": 0.0,
+      "Dirtyness": 0.0
+    }
+  },
+  {
+    "name": "das uberwhip",
+    "carNameIndex": 3,
+    "prefabName": "Car_M1",
+    "livery": {
+      "Name": "1",
+      "TexturePath": "Prefabs/Cars/Car_M1/Liveries/1",
+      "Type": "Standard",
+      "CarPrefabName": "Car_M1"
+    },
+    "carClass": "GROUP_4",
+    "carStats": {
+      "YearUnlocked": 1975,
+      "IsUnlocked": false,
+      "YearBonusUnlocked": 1980,
+      "IsBonusUnlocked": false,
+      "UnlockedSaveConstant": "UNLOCKABLE_1975",
+      "BonusUnlockedSaveConstant": "UNLOCKABLE_1980_BONUS",
+      "Engine": "inline 6 - 320 hp",
+      "Gears": 5,
+      "Transmission": "RWD",
+      "Aspiration": "NATURAL",
+      "Country": "GERMANY",
+      "LoreKey": "car_m1",
+      "StatsOdometer": "uberwhip_odo",
+      "StatsPodiums": "uberwhip_pod",
+      "StatsEvents": "uberwhip_events"
+    },
+    "performancePartsCondition": {
+      "Engine": 1.0,
+      "Radiator": 1.0,
+      "Turbo": 1.0,
+      "Transmission": 1.0,
+      "Aerodynamics": 1.0,
+      "Brakes": 1.0,
+      "Steering": 1.0,
+      "SteeringAlignment": 0.0,
+      "Dirtyness": 0.0
+    }
+  },
+  {
+    "name": "the cozzie sr5",
+    "carNameIndex": 4,
+    "prefabName": "Car_RS500",
+    "livery": {
+      "Name": "1",
+      "TexturePath": "Prefabs/Cars/Car_RS500/Liveries/1",
+      "Type": "Standard",
+      "CarPrefabName": "Car_RS500"
+    },
+    "carClass": "GROUP_4",
+    "carStats": {
+      "YearUnlocked": 1976,
+      "IsUnlocked": false,
+      "YearBonusUnlocked": 1979,
+      "IsBonusUnlocked": false,
+      "UnlockedSaveConstant": "UNLOCKABLE_1976",
+      "BonusUnlockedSaveConstant": "UNLOCKABLE_1979_BONUS",
+      "Engine": "inline 4 - 280 hp",
+      "Gears": 5,
+      "Transmission": "RWD",
+      "Aspiration": "TURBOCHARGED",
+      "Country": "ENGLAND",
+      "LoreKey": "car_rs500",
+      "StatsOdometer": "cozzie_sr5_odo",
+      "StatsPodiums": "cozzie_sr5_pod",
+      "StatsEvents": "cozzie_sr5_events"
+    },
+    "performancePartsCondition": {
+      "Engine": 1.0,
+      "Radiator": 1.0,
+      "Turbo": 1.0,
+      "Transmission": 1.0,
+      "Aerodynamics": 1.0,
+      "Brakes": 1.0,
+      "Steering": 1.0,
+      "SteeringAlignment": 0.0,
+      "Dirtyness": 0.0
+    }
+  },
+  {
+    "name": "the original",
+    "carNameIndex": 5,
+    "prefabName": "Car_AE86",
+    "livery": {
+      "Name": "1",
+      "TexturePath": "Prefabs/Cars/Car_AE86/Liveries/1",
+      "Type": "Standard",
+      "CarPrefabName": "Car_AE86"
+    },
+    "carClass": "GROUP_4",
+    "carStats": {
+      "YearUnlocked": 1995,
+      "IsUnlocked": false,
+      "YearBonusUnlocked": 1988,
+      "IsBonusUnlocked": false,
+      "UnlockedSaveConstant": "UNLOCKABLE_1995",
+      "BonusUnlockedSaveConstant": "UNLOCKABLE_1988_BONUS",
+      "Engine": "inline 4 - 330 hp",
+      "Gears": 5,
+      "Transmission": "RWD",
+      "Aspiration": "TURBOCHARGED",
+      "Country": "JAPAN",
+      "LoreKey": "car_ae86",
+      "StatsOdometer": "original_odo",
+      "StatsPodiums": "original_pod",
+      "StatsEvents": "original_events"
+    },
+    "performancePartsCondition": {
+      "Engine": 1.0,
+      "Radiator": 1.0,
+      "Turbo": 1.0,
+      "Transmission": 1.0,
+      "Aerodynamics": 1.0,
+      "Brakes": 1.0,
+      "Steering": 1.0,
+      "SteeringAlignment": 0.0,
+      "Dirtyness": 0.0
+    }
+  },
+  {
+    "name": "la super montaine",
+    "carNameIndex": 6,
+    "prefabName": "Car_Renault_A310",
+    "livery": {
+      "Name": "1",
+      "TexturePath": "Prefabs/Cars/Car_Renault_A310/Liveries/1",
+      "Type": "Standard",
+      "CarPrefabName": "Car_Renault_A310"
+    },
+    "carClass": "GROUP_4",
+    "carStats": {
+      "YearUnlocked": 0,
+      "IsUnlocked": true,
+      "YearBonusUnlocked": 1972,
+      "IsBonusUnlocked": false,
+      "UnlockedSaveConstant": null,
+      "BonusUnlockedSaveConstant": "UNLOCKABLE_1972_BONUS",
+      "Engine": "v6 - 320 hp",
+      "Gears": 5,
+      "Transmission": "RWD",
+      "Aspiration": "TURBOCHARGED",
+      "Country": "FRANCE",
+      "LoreKey": "car_renault_a310",
+      "StatsOdometer": "super_montaine_odo",
+      "StatsPodiums": "super_montaine_pod",
+      "StatsEvents": "super_montaine_events"
+    },
+    "performancePartsCondition": {
+      "Engine": 1.0,
+      "Radiator": 1.0,
+      "Turbo": 1.0,
+      "Transmission": 1.0,
+      "Aerodynamics": 1.0,
+      "Brakes": 1.0,
+      "Steering": 1.0,
+      "SteeringAlignment": 0.0,
+      "Dirtyness": 0.0
+    }
+  },
+  {
+    "name": "la longana",
+    "carNameIndex": 7,
+    "prefabName": "Car_AlfaRomeoAlfetta",
+    "livery": {
+      "Name": "1",
+      "TexturePath": "Prefabs/Cars/Car_AlfaRomeoAlfetta/Liveries/1",
+      "Type": "Standard",
+      "CarPrefabName": "Car_AlfaRomeoAlfetta"
+    },
+    "carClass": "GROUP_4",
+    "carStats": {
+      "YearUnlocked": 0,
+      "IsUnlocked": true,
+      "YearBonusUnlocked": 1973,
+      "IsBonusUnlocked": false,
+      "UnlockedSaveConstant": null,
+      "BonusUnlockedSaveConstant": "UNLOCKABLE_1973_BONUS",
+      "Engine": "inline 4 - 320 hp",
+      "Gears": 5,
+      "Transmission": "RWD",
+      "Aspiration": "TURBOCHARGED",
+      "Country": "ITALY",
+      "LoreKey": "car_alfaromeoalfetta",
+      "StatsOdometer": "longana_odo",
+      "StatsPodiums": "longana_pod",
+      "StatsEvents": "longana_events"
+    },
+    "performancePartsCondition": {
+      "Engine": 1.0,
+      "Radiator": 1.0,
+      "Turbo": 1.0,
+      "Transmission": 1.0,
+      "Aerodynamics": 1.0,
+      "Brakes": 1.0,
+      "Steering": 1.0,
+      "SteeringAlignment": 0.0,
+      "Dirtyness": 0.0
+    }
+  },
+  {
+    "name": "the gazelle",
+    "carNameIndex": 8,
+    "prefabName": "Car_160j",
+    "livery": {
+      "Name": "1",
+      "TexturePath": "Prefabs/Cars/Car_160j/Liveries/1",
+      "Type": "Standard",
+      "CarPrefabName": "Car_160j"
+    },
+    "carClass": "GROUP_4",
+    "carStats": {
+      "YearUnlocked": 0,
+      "IsUnlocked": true,
+      "YearBonusUnlocked": 1974,
+      "IsBonusUnlocked": false,
+      "UnlockedSaveConstant": null,
+      "BonusUnlockedSaveConstant": "UNLOCKABLE_1974_BONUS",
+      "Engine": "v6 - 320 hp",
+      "Gears": 5,
+      "Transmission": "RWD",
+      "Aspiration": "TURBOCHARGED",
+      "Country": "JAPAN",
+      "LoreKey": "car_datsun160j",
+      "StatsOdometer": "gazelle_odo",
+      "StatsPodiums": "gazelle_pod",
+      "StatsEvents": "gazelle_events"
+    },
+    "performancePartsCondition": {
+      "Engine": 1.0,
+      "Radiator": 1.0,
+      "Turbo": 1.0,
+      "Transmission": 1.0,
+      "Aerodynamics": 1.0,
+      "Brakes": 1.0,
+      "Steering": 1.0,
+      "SteeringAlignment": 0.0,
+      "Dirtyness": 0.0
+    }
+  },
+  {
+    "name": "the 4r6",
+    "carNameIndex": 0,
+    "prefabName": "Car_Metro",
+    "livery": {
+      "Name": "1",
+      "TexturePath": "Prefabs/Cars/Car_Metro/Liveries/1",
+      "Type": "Standard",
+      "CarPrefabName": "Car_Metro"
+    },
+    "carClass": "GROUP_B",
+    "carStats": {
+      "YearUnlocked": 0,
+      "IsUnlocked": true,
+      "YearBonusUnlocked": 1982,
+      "IsBonusUnlocked": false,
+      "UnlockedSaveConstant": null,
+      "BonusUnlockedSaveConstant": "UNLOCKABLE_1982_BONUS",
+      "Engine": "v6 - 440 hp",
+      "Gears": 5,
+      "Transmission": "AWD",
+      "Aspiration": "NATURAL",
+      "Country": "ENGLAND",
+      "LoreKey": "car_metro",
+      "StatsOdometer": "_4r6_odo",
+      "StatsPodiums": "_4r6_pod",
+      "StatsEvents": "_4r6_events"
+    },
+    "performancePartsCondition": {
+      "Engine": 1.0,
+      "Radiator": 1.0,
+      "Turbo": 1.0,
+      "Transmission": 1.0,
+      "Aerodynamics": 1.0,
+      "Brakes": 1.0,
+      "Steering": 1.0,
+      "SteeringAlignment": 0.0,
+      "Dirtyness": 0.0
+    }
+  },
+  {
+    "name": "le 502",
+    "carNameIndex": 1,
+    "prefabName": "Car_205",
+    "livery": {
+      "Name": "1",
+      "TexturePath": "Prefabs/Cars/Car_205/Liveries/1",
+      "Type": "Standard",
+      "CarPrefabName": "Car_205"
+    },
+    "carClass": "GROUP_B",
+    "carStats": {
+      "YearUnlocked": 0,
+      "IsUnlocked": true,
+      "YearBonusUnlocked": 1986,
+      "IsBonusUnlocked": false,
+      "UnlockedSaveConstant": null,
+      "BonusUnlockedSaveConstant": "UNLOCKABLE_1986_BONUS",
+      "Engine": "inline 4 - 460 hp",
+      "Gears": 5,
+      "Transmission": "AWD",
+      "Aspiration": "TURBOCHARGED",
+      "Country": "FRANCE",
+      "LoreKey": "car_205",
+      "StatsOdometer": "_502_odo",
+      "StatsPodiums": "_502_pod",
+      "StatsEvents": "_502_events"
+    },
+    "performancePartsCondition": {
+      "Engine": 1.0,
+      "Radiator": 1.0,
+      "Turbo": 1.0,
+      "Transmission": 1.0,
+      "Aerodynamics": 1.0,
+      "Brakes": 1.0,
+      "Steering": 1.0,
+      "SteeringAlignment": 0.0,
+      "Dirtyness": 0.0
+    }
+  },
+  {
+    "name": "das hammer v1",
+    "carNameIndex": 2,
+    "prefabName": "Car_A1",
+    "livery": {
+      "Name": "1",
+      "TexturePath": "Prefabs/Cars/Car_A1/Liveries/1",
+      "Type": "Standard",
+      "CarPrefabName": "Car_A1"
+    },
+    "carClass": "GROUP_B",
+    "carStats": {
+      "YearUnlocked": 0,
+      "IsUnlocked": true,
+      "YearBonusUnlocked": 1983,
+      "IsBonusUnlocked": false,
+      "UnlockedSaveConstant": null,
+      "BonusUnlockedSaveConstant": "UNLOCKABLE_1983_BONUS",
+      "Engine": "inline 5 - 460 hp",
+      "Gears": 5,
+      "Transmission": "AWD",
+      "Aspiration": "TURBOCHARGED",
+      "Country": "GERMANY",
+      "LoreKey": "car_a1",
+      "StatsOdometer": "hammer_v2_odo",
+      "StatsPodiums": "hammer_v2_pod",
+      "StatsEvents": "hammer_v2_events"
+    },
+    "performancePartsCondition": {
+      "Engine": 1.0,
+      "Radiator": 1.0,
+      "Turbo": 1.0,
+      "Transmission": 1.0,
+      "Aerodynamics": 1.0,
+      "Brakes": 1.0,
+      "Steering": 1.0,
+      "SteeringAlignment": 0.0,
+      "Dirtyness": 0.0
+    }
+  },
+  {
+    "name": "das hammer v2",
+    "carNameIndex": 3,
+    "prefabName": "Car_S1E2",
+    "livery": {
+      "Name": "1",
+      "TexturePath": "Prefabs/Cars/Car_S1E2/Liveries/1",
+      "Type": "Standard",
+      "CarPrefabName": "Car_S1E2"
+    },
+    "carClass": "GROUP_B",
+    "carStats": {
+      "YearUnlocked": 0,
+      "IsUnlocked": true,
+      "YearBonusUnlocked": 1984,
+      "IsBonusUnlocked": false,
+      "UnlockedSaveConstant": null,
+      "BonusUnlockedSaveConstant": "UNLOCKABLE_1984_BONUS",
+      "Engine": "inline 5 - 500 hp",
+      "Gears": 5,
+      "Transmission": "AWD",
+      "Aspiration": "TURBOCHARGED",
+      "Country": "GERMANY",
+      "LoreKey": "car_s1e2",
+      "StatsOdometer": "hammer_v3_odo",
+      "StatsPodiums": "hammer_v3_pod",
+      "StatsEvents": "hammer_v3_events"
+    },
+    "performancePartsCondition": {
+      "Engine": 1.0,
+      "Radiator": 1.0,
+      "Turbo": 1.0,
+      "Transmission": 1.0,
+      "Aerodynamics": 1.0,
+      "Brakes": 1.0,
+      "Steering": 1.0,
+      "SteeringAlignment": 0.0,
+      "Dirtyness": 0.0
+    }
+  },
+  {
+    "name": "il gorilla 4s",
+    "carNameIndex": 4,
+    "prefabName": "Car_S4",
+    "livery": {
+      "Name": "1",
+      "TexturePath": "Prefabs/Cars/Car_S4/Liveries/1",
+      "Type": "Standard",
+      "CarPrefabName": "Car_S4"
+    },
+    "carClass": "GROUP_B",
+    "carStats": {
+      "YearUnlocked": 0,
+      "IsUnlocked": true,
+      "YearBonusUnlocked": 1980,
+      "IsBonusUnlocked": false,
+      "UnlockedSaveConstant": null,
+      "BonusUnlockedSaveConstant": "UNLOCKABLE_1980_BONUS",
+      "Engine": "inline 4 - 500 hp",
+      "Gears": 5,
+      "Transmission": "AWD",
+      "Aspiration": "TWINCHARGED",
+      "Country": "ITALY",
+      "LoreKey": "car_s4",
+      "StatsOdometer": "gorilla4s_odo",
+      "StatsPodiums": "gorilla4s_pod",
+      "StatsEvents": "gorilla4s_events"
+    },
+    "performancePartsCondition": {
+      "Engine": 1.0,
+      "Radiator": 1.0,
+      "Turbo": 1.0,
+      "Transmission": 1.0,
+      "Aerodynamics": 1.0,
+      "Brakes": 1.0,
+      "Steering": 1.0,
+      "SteeringAlignment": 0.0,
+      "Dirtyness": 0.0
+    }
+  },
+  {
+    "name": "the cozzie sr2",
+    "carNameIndex": 5,
+    "prefabName": "Car_RS200",
+    "livery": {
+      "Name": "1",
+      "TexturePath": "Prefabs/Cars/Car_RS200/Liveries/1",
+      "Type": "Standard",
+      "CarPrefabName": "Car_RS200"
+    },
+    "carClass": "GROUP_B",
+    "carStats": {
+      "YearUnlocked": 0,
+      "IsUnlocked": true,
+      "YearBonusUnlocked": 1985,
+      "IsBonusUnlocked": false,
+      "UnlockedSaveConstant": null,
+      "BonusUnlockedSaveConstant": "UNLOCKABLE_1985_BONUS",
+      "Engine": "inline 4 - 470 hp",
+      "Gears": 5,
+      "Transmission": "AWD",
+      "Aspiration": "TURBOCHARGED",
+      "Country": "ENGLAND",
+      "LoreKey": "car_rs200",
+      "StatsOdometer": "cozzie_sr2_odo",
+      "StatsPodiums": "cozzie_sr2_pod",
+      "StatsEvents": "cozzie_sr2_events"
+    },
+    "performancePartsCondition": {
+      "Engine": 1.0,
+      "Radiator": 1.0,
+      "Turbo": 1.0,
+      "Transmission": 1.0,
+      "Aerodynamics": 1.0,
+      "Brakes": 1.0,
+      "Steering": 1.0,
+      "SteeringAlignment": 0.0,
+      "Dirtyness": 0.0
+    }
+  },
+  {
+    "name": "the cozzie sr71",
+    "carNameIndex": 6,
+    "prefabName": "Car_RS1700T",
+    "livery": {
+      "Name": "1",
+      "TexturePath": "Prefabs/Cars/Car_RS1700T/Liveries/1",
+      "Type": "Standard",
+      "CarPrefabName": "Car_RS1700T"
+    },
+    "carClass": "GROUP_B",
+    "carStats": {
+      "YearUnlocked": 1982,
+      "IsUnlocked": false,
+      "YearBonusUnlocked": 1985,
+      "IsBonusUnlocked": false,
+      "UnlockedSaveConstant": "UNLOCKABLE_1982",
+      "BonusUnlockedSaveConstant": "UNLOCKABLE_1985_BONUS",
+      "Engine": "inline 4 - 450 hp",
+      "Gears": 5,
+      "Transmission": "RWD",
+      "Aspiration": "TURBOCHARGED",
+      "Country": "ENGLAND",
+      "LoreKey": "car_rs1700t",
+      "StatsOdometer": "cozziesr71_odo",
+      "StatsPodiums": "cozziesr71_pod",
+      "StatsEvents": "cozziesr71_events"
+    },
+    "performancePartsCondition": {
+      "Engine": 1.0,
+      "Radiator": 1.0,
+      "Turbo": 1.0,
+      "Transmission": 1.0,
+      "Aerodynamics": 1.0,
+      "Brakes": 1.0,
+      "Steering": 1.0,
+      "SteeringAlignment": 0.0,
+      "Dirtyness": 0.0
+    }
+  },
+  {
+    "name": "the rotary b7",
+    "carNameIndex": 7,
+    "prefabName": "Car_RX7",
+    "livery": {
+      "Name": "1",
+      "TexturePath": "Prefabs/Cars/Car_RX7/Liveries/1",
+      "Type": "Standard",
+      "CarPrefabName": "Car_RX7"
+    },
+    "carClass": "GROUP_B",
+    "carStats": {
+      "YearUnlocked": 1977,
+      "IsUnlocked": false,
+      "YearBonusUnlocked": 1979,
+      "IsBonusUnlocked": false,
+      "UnlockedSaveConstant": "UNLOCKABLE_1977",
+      "BonusUnlockedSaveConstant": "UNLOCKABLE_1979_BONUS",
+      "Engine": "2 rotor - 450 hp",
+      "Gears": 5,
+      "Transmission": "RWD",
+      "Aspiration": "NATURAL",
+      "Country": "JAPAN",
+      "LoreKey": "car_rx7",
+      "StatsOdometer": "rotaryb7_odo",
+      "StatsPodiums": "rotaryb7_pod",
+      "StatsEvents": "rotaryb7_events"
+    },
+    "performancePartsCondition": {
+      "Engine": 1.0,
+      "Radiator": 1.0,
+      "Turbo": 1.0,
+      "Transmission": 1.0,
+      "Aerodynamics": 1.0,
+      "Brakes": 1.0,
+      "Steering": 1.0,
+      "SteeringAlignment": 0.0,
+      "Dirtyness": 0.0
+    }
+  },
+  {
+    "name": "das hammer v3",
+    "carNameIndex": 8,
+    "prefabName": "Car_Quattro_v3",
+    "livery": {
+      "Name": "1",
+      "TexturePath": "Prefabs/Cars/Car_Quattro_v3/Liveries/1",
+      "Type": "Standard",
+      "CarPrefabName": "Car_Quattro_v3"
+    },
+    "carClass": "GROUP_B",
+    "carStats": {
+      "YearUnlocked": 1978,
+      "IsUnlocked": false,
+      "YearBonusUnlocked": 1981,
+      "IsBonusUnlocked": false,
+      "UnlockedSaveConstant": "UNLOCKABLE_1978",
+      "BonusUnlockedSaveConstant": "UNLOCKABLE_1981_BONUS",
+      "Engine": "inline 5 - 520 hp",
+      "Gears": 5,
+      "Transmission": "AWD",
+      "Aspiration": "TURBOCHARGED",
+      "Country": "GERMANY",
+      "LoreKey": "car_quattro_v3",
+      "StatsOdometer": "hammer_v1_odo",
+      "StatsPodiums": "hammer_v1_pod",
+      "StatsEvents": "hammer_v1_events"
+    },
+    "performancePartsCondition": {
+      "Engine": 1.0,
+      "Radiator": 1.0,
+      "Turbo": 1.0,
+      "Transmission": 1.0,
+      "Aerodynamics": 1.0,
+      "Brakes": 1.0,
+      "Steering": 1.0,
+      "SteeringAlignment": 0.0,
+      "Dirtyness": 0.0
+    }
+  },
+  {
+    "name": "il monster",
+    "carNameIndex": 9,
+    "prefabName": "Car_037",
+    "livery": {
+      "Name": "1",
+      "TexturePath": "Prefabs/Cars/Car_037/Liveries/1",
+      "Type": "Standard",
+      "CarPrefabName": "Car_037"
+    },
+    "carClass": "GROUP_B",
+    "carStats": {
+      "YearUnlocked": 1979,
+      "IsUnlocked": false,
+      "YearBonusUnlocked": 1982,
+      "IsBonusUnlocked": false,
+      "UnlockedSaveConstant": "UNLOCKABLE_1979",
+      "BonusUnlockedSaveConstant": "UNLOCKABLE_1982_BONUS",
+      "Engine": "inline 4 - 480 hp",
+      "Gears": 5,
+      "Transmission": "RWD",
+      "Aspiration": "SUPERCHARGED",
+      "Country": "ITALY",
+      "LoreKey": "car_037",
+      "StatsOdometer": "monster_odo",
+      "StatsPodiums": "monster_pod",
+      "StatsEvents": "monster_events"
+    },
+    "performancePartsCondition": {
+      "Engine": 1.0,
+      "Radiator": 1.0,
+      "Turbo": 1.0,
+      "Transmission": 1.0,
+      "Aerodynamics": 1.0,
+      "Brakes": 1.0,
+      "Steering": 1.0,
+      "SteeringAlignment": 0.0,
+      "Dirtyness": 0.0
+    }
+  },
+  {
+    "name": "il cavallo 882",
+    "carNameIndex": 10,
+    "prefabName": "Car_F288",
+    "livery": {
+      "Name": "1",
+      "TexturePath": "Prefabs/Cars/Car_F288/Liveries/1",
+      "Type": "Standard",
+      "CarPrefabName": "Car_F288"
+    },
+    "carClass": "GROUP_B",
+    "carStats": {
+      "YearUnlocked": 1980,
+      "IsUnlocked": false,
+      "YearBonusUnlocked": 1983,
+      "IsBonusUnlocked": false,
+      "UnlockedSaveConstant": "UNLOCKABLE_1980",
+      "BonusUnlockedSaveConstant": "UNLOCKABLE_1983_BONUS",
+      "Engine": "v8 - 480 hp",
+      "Gears": 5,
+      "Transmission": "RWD",
+      "Aspiration": "TURBOCHARGED",
+      "Country": "ITALY",
+      "LoreKey": "car_f288",
+      "StatsOdometer": "cavallo882_odo",
+      "StatsPodiums": "cavallo882_pod",
+      "StatsEvents": "cavallo882_events"
+    },
+    "performancePartsCondition": {
+      "Engine": 1.0,
+      "Radiator": 1.0,
+      "Turbo": 1.0,
+      "Transmission": 1.0,
+      "Aerodynamics": 1.0,
+      "Brakes": 1.0,
+      "Steering": 1.0,
+      "SteeringAlignment": 0.0,
+      "Dirtyness": 0.0
+    }
+  },
+  {
+    "name": "le cinq b",
+    "carNameIndex": 11,
+    "prefabName": "Car_Renault5_Maxi",
+    "livery": {
+      "Name": "1",
+      "TexturePath": "Prefabs/Cars/Car_Renault5_Maxi/Liveries/1",
+      "Type": "Standard",
+      "CarPrefabName": "Car_Renault5_Maxi"
+    },
+    "carClass": "GROUP_B",
+    "carStats": {
+      "YearUnlocked": 1983,
+      "IsUnlocked": false,
+      "YearBonusUnlocked": 1984,
+      "IsBonusUnlocked": false,
+      "UnlockedSaveConstant": "UNLOCKABLE_1983",
+      "BonusUnlockedSaveConstant": "UNLOCKABLE_1984_BONUS",
+      "Engine": "inline 4 - 440 hp",
+      "Gears": 5,
+      "Transmission": "RWD",
+      "Aspiration": "TURBOCHARGED",
+      "Country": "FRANCE",
+      "LoreKey": "car_renault5_maxi",
+      "StatsOdometer": "cinqb_odo",
+      "StatsPodiums": "cinqb_pod",
+      "StatsEvents": "cinqb_events"
+    },
+    "performancePartsCondition": {
+      "Engine": 1.0,
+      "Radiator": 1.0,
+      "Turbo": 1.0,
+      "Transmission": 1.0,
+      "Aerodynamics": 1.0,
+      "Brakes": 1.0,
+      "Steering": 1.0,
+      "SteeringAlignment": 0.0,
+      "Dirtyness": 0.0
+    }
+  },
+  {
+    "name": "das uberspeedvan",
+    "carNameIndex": 12,
+    "prefabName": "Bonus_LtVanLow_B",
+    "livery": {
+      "Name": "1",
+      "TexturePath": "Prefabs/Cars/Bonus_LtVanLow_B/Liveries/1",
+      "Type": "Standard",
+      "CarPrefabName": "Bonus_LtVanLow_B"
+    },
+    "carClass": "GROUP_B",
+    "carStats": {
+      "YearUnlocked": 1993,
+      "IsUnlocked": false,
+      "YearBonusUnlocked": 1994,
+      "IsBonusUnlocked": false,
+      "UnlockedSaveConstant": "UNLOCKABLE_1993",
+      "BonusUnlockedSaveConstant": "UNLOCKABLE_1994_BONUS",
+      "Engine": "inline 5 - 500 hp",
+      "Gears": 5,
+      "Transmission": "AWD",
+      "Aspiration": "TURBOCHARGED",
+      "Country": "GERMANY",
+      "LoreKey": "bonus_ltvanlow_b",
+      "StatsOdometer": "speedvan_low_b_odo",
+      "StatsPodiums": "speedvan_low_b_pod",
+      "StatsEvents": "speedvan_low_b_events"
+    },
+    "performancePartsCondition": {
+      "Engine": 1.0,
+      "Radiator": 1.0,
+      "Turbo": 1.0,
+      "Transmission": 1.0,
+      "Aerodynamics": 1.0,
+      "Brakes": 1.0,
+      "Steering": 1.0,
+      "SteeringAlignment": 0.0,
+      "Dirtyness": 0.0
+    }
+  },
+  {
+    "name": "the king of africa",
+    "carNameIndex": 13,
+    "prefabName": "Car_Celica",
+    "livery": {
+      "Name": "1",
+      "TexturePath": "Prefabs/Cars/Car_Celica/Liveries/1",
+      "Type": "Standard",
+      "CarPrefabName": "Car_Celica"
+    },
+    "carClass": "GROUP_B",
+    "carStats": {
+      "YearUnlocked": 0,
+      "IsUnlocked": true,
+      "YearBonusUnlocked": 0,
+      "IsBonusUnlocked": true,
+      "UnlockedSaveConstant": null,
+      "BonusUnlockedSaveConstant": null,
+      "Engine": "inline 4 - 460 hp",
+      "Gears": 5,
+      "Transmission": "RWD",
+      "Aspiration": "TURBOCHARGED",
+      "Country": "JAPAN",
+      "LoreKey": "car_celica",
+      "StatsOdometer": "yoda_odo",
+      "StatsPodiums": "yoda_pod",
+      "StatsEvents": "yoda_events"
+    },
+    "performancePartsCondition": {
+      "Engine": 1.0,
+      "Radiator": 1.0,
+      "Turbo": 1.0,
+      "Transmission": 1.0,
+      "Aerodynamics": 1.0,
+      "Brakes": 1.0,
+      "Steering": 1.0,
+      "SteeringAlignment": 0.0,
+      "Dirtyness": 0.0
+    }
+  },
+  {
+    "name": "das 559",
+    "carNameIndex": 14,
+    "prefabName": "Car_959",
+    "livery": {
+      "Name": "1",
+      "TexturePath": "Prefabs/Cars/Car_959/Liveries/1",
+      "Type": "Standard",
+      "CarPrefabName": "Car_959"
+    },
+    "carClass": "GROUP_B",
+    "carStats": {
+      "YearUnlocked": 0,
+      "IsUnlocked": true,
+      "YearBonusUnlocked": 1976,
+      "IsBonusUnlocked": false,
+      "UnlockedSaveConstant": null,
+      "BonusUnlockedSaveConstant": "UNLOCKABLE_1976_BONUS",
+      "Engine": "flat 6 - 485 hp",
+      "Gears": 5,
+      "Transmission": "AWD",
+      "Aspiration": "TURBOCHARGED",
+      "Country": "GERMANY",
+      "LoreKey": "car_porsche959",
+      "StatsOdometer": "_559_odo",
+      "StatsPodiums": "_559_pod",
+      "StatsEvents": "_559_events"
+    },
+    "performancePartsCondition": {
+      "Engine": 1.0,
+      "Radiator": 1.0,
+      "Turbo": 1.0,
+      "Transmission": 1.0,
+      "Aerodynamics": 1.0,
+      "Brakes": 1.0,
+      "Steering": 1.0,
+      "SteeringAlignment": 0.0,
+      "Dirtyness": 0.0
+    }
+  },
+  {
+    "name": "the hyena",
+    "carNameIndex": 15,
+    "prefabName": "Car_240rs",
+    "livery": {
+      "Name": "1",
+      "TexturePath": "Prefabs/Cars/Car_240rs/Liveries/1",
+      "Type": "Standard",
+      "CarPrefabName": "Car_240rs"
+    },
+    "carClass": "GROUP_B",
+    "carStats": {
+      "YearUnlocked": 0,
+      "IsUnlocked": true,
+      "YearBonusUnlocked": 0,
+      "IsBonusUnlocked": true,
+      "UnlockedSaveConstant": null,
+      "BonusUnlockedSaveConstant": null,
+      "Engine": "inline 4 - 430 hp",
+      "Gears": 5,
+      "Transmission": "RWD",
+      "Aspiration": "NATURAL",
+      "Country": "JAPAN",
+      "LoreKey": "car_nissan240rs",
+      "StatsOdometer": "hyena_odo",
+      "StatsPodiums": "hyena_pod",
+      "StatsEvents": "hyena_events"
+    },
+    "performancePartsCondition": {
+      "Engine": 1.0,
+      "Radiator": 1.0,
+      "Turbo": 1.0,
+      "Transmission": 1.0,
+      "Aerodynamics": 1.0,
+      "Brakes": 1.0,
+      "Steering": 1.0,
+      "SteeringAlignment": 0.0,
+      "Dirtyness": 0.0
+    }
+  },
+  {
+    "name": "das eibenhammer",
+    "carNameIndex": 0,
+    "prefabName": "Car_Quattro_RS002",
+    "livery": {
+      "Name": "1",
+      "TexturePath": "Prefabs/Cars/Car_Quattro_RS002/Liveries/1",
+      "Type": "Standard",
+      "CarPrefabName": "Car_Quattro_RS002"
+    },
+    "carClass": "GROUP_S",
+    "carStats": {
+      "YearUnlocked": 0,
+      "IsUnlocked": true,
+      "YearBonusUnlocked": 1987,
+      "IsBonusUnlocked": false,
+      "UnlockedSaveConstant": null,
+      "BonusUnlockedSaveConstant": "UNLOCKABLE_1987_BONUS",
+      "Engine": "inline 5 - 700 hp",
+      "Gears": 5,
+      "Transmission": "AWD",
+      "Aspiration": "TURBOCHARGED",
+      "Country": "GERMANY",
+      "LoreKey": "car_quattro_rs002",
+      "StatsOdometer": "eibenhammer_odo",
+      "StatsPodiums": "eibenhammer_pod",
+      "StatsEvents": "eibenhammer_events"
+    },
+    "performancePartsCondition": {
+      "Engine": 1.0,
+      "Radiator": 1.0,
+      "Turbo": 1.0,
+      "Transmission": 1.0,
+      "Aerodynamics": 1.0,
+      "Brakes": 1.0,
+      "Steering": 1.0,
+      "SteeringAlignment": 0.0,
+      "Dirtyness": 0.0
+    }
+  },
+  {
+    "name": "the rotary s7",
+    "carNameIndex": 1,
+    "prefabName": "Car_RX7S",
+    "livery": {
+      "Name": "1",
+      "TexturePath": "Prefabs/Cars/Car_RX7S/Liveries/1",
+      "Type": "Standard",
+      "CarPrefabName": "Car_RX7S"
+    },
+    "carClass": "GROUP_S",
+    "carStats": {
+      "YearUnlocked": 0,
+      "IsUnlocked": true,
+      "YearBonusUnlocked": 1988,
+      "IsBonusUnlocked": false,
+      "UnlockedSaveConstant": null,
+      "BonusUnlockedSaveConstant": "UNLOCKABLE_1988_BONUS",
+      "Engine": "3 rotor - 660 hp",
+      "Gears": 5,
+      "Transmission": "AWD",
+      "Aspiration": "NATURAL",
+      "Country": "JAPAN",
+      "LoreKey": "car_rx7s",
+      "StatsOdometer": "rotarys7_odo",
+      "StatsPodiums": "rotarys7_pod",
+      "StatsEvents": "rotarys7_events"
+    },
+    "performancePartsCondition": {
+      "Engine": 1.0,
+      "Radiator": 1.0,
+      "Turbo": 1.0,
+      "Transmission": 1.0,
+      "Aerodynamics": 1.0,
+      "Brakes": 1.0,
+      "Steering": 1.0,
+      "SteeringAlignment": 0.0,
+      "Dirtyness": 0.0
+    }
+  },
+  {
+    "name": "the umibozu",
+    "carNameIndex": 2,
+    "prefabName": "Car_MR2",
+    "livery": {
+      "Name": "1",
+      "TexturePath": "Prefabs/Cars/Car_MR2/Liveries/1",
+      "Type": "Standard",
+      "CarPrefabName": "Car_MR2"
+    },
+    "carClass": "GROUP_S",
+    "carStats": {
+      "YearUnlocked": 0,
+      "IsUnlocked": true,
+      "YearBonusUnlocked": 1991,
+      "IsBonusUnlocked": false,
+      "UnlockedSaveConstant": null,
+      "BonusUnlockedSaveConstant": "UNLOCKABLE_1991_BONUS",
+      "Engine": "inline 4 - 670 hp",
+      "Gears": 5,
+      "Transmission": "AWD",
+      "Aspiration": "TURBOCHARGED",
+      "Country": "JAPAN",
+      "LoreKey": "car_mr2",
+      "StatsOdometer": "umibozu_odo",
+      "StatsPodiums": "umibozu_pod",
+      "StatsEvents": "umibozu_events"
+    },
+    "performancePartsCondition": {
+      "Engine": 1.0,
+      "Radiator": 1.0,
+      "Turbo": 1.0,
+      "Transmission": 1.0,
+      "Aerodynamics": 1.0,
+      "Brakes": 1.0,
+      "Steering": 1.0,
+      "SteeringAlignment": 0.0,
+      "Dirtyness": 0.0
+    }
+  },
+  {
+    "name": "il gorilla e1",
+    "carNameIndex": 3,
+    "prefabName": "Car_LanciaECV1",
+    "livery": {
+      "Name": "1",
+      "TexturePath": "Prefabs/Cars/Car_LanciaECV1/Liveries/1",
+      "Type": "Standard",
+      "CarPrefabName": "Car_LanciaECV1"
+    },
+    "carClass": "GROUP_S",
+    "carStats": {
+      "YearUnlocked": 0,
+      "IsUnlocked": true,
+      "YearBonusUnlocked": 1978,
+      "IsBonusUnlocked": false,
+      "UnlockedSaveConstant": null,
+      "BonusUnlockedSaveConstant": "UNLOCKABLE_1978_BONUS",
+      "Engine": "inline 4 - 650 hp",
+      "Gears": 5,
+      "Transmission": "AWD",
+      "Aspiration": "TURBOCHARGED",
+      "Country": "ITALY",
+      "LoreKey": "car_lanciaecv1",
+      "StatsOdometer": "gorillae1_odo",
+      "StatsPodiums": "gorillae1_pod",
+      "StatsEvents": "gorillae1_events"
+    },
+    "performancePartsCondition": {
+      "Engine": 1.0,
+      "Radiator": 1.0,
+      "Turbo": 1.0,
+      "Transmission": 1.0,
+      "Aerodynamics": 1.0,
+      "Brakes": 1.0,
+      "Steering": 1.0,
+      "SteeringAlignment": 0.0,
+      "Dirtyness": 0.0
+    }
+  },
+  {
+    "name": "le 504",
+    "carNameIndex": 4,
+    "prefabName": "Car_405",
+    "livery": {
+      "Name": "1",
+      "TexturePath": "Prefabs/Cars/Car_405/Liveries/1",
+      "Type": "Standard",
+      "CarPrefabName": "Car_405"
+    },
+    "carClass": "GROUP_S",
+    "carStats": {
+      "YearUnlocked": 1984,
+      "IsUnlocked": false,
+      "YearBonusUnlocked": 1990,
+      "IsBonusUnlocked": false,
+      "UnlockedSaveConstant": "UNLOCKABLE_1984",
+      "BonusUnlockedSaveConstant": "UNLOCKABLE_1990_BONUS",
+      "Engine": "inline 4 - 660 hp",
+      "Gears": 5,
+      "Transmission": "AWD",
+      "Aspiration": "TURBOCHARGED",
+      "Country": "FRANCE",
+      "LoreKey": "car_405",
+      "StatsOdometer": "_504_odo",
+      "StatsPodiums": "_504_pod",
+      "StatsEvents": "_504_events"
+    },
+    "performancePartsCondition": {
+      "Engine": 1.0,
+      "Radiator": 1.0,
+      "Turbo": 1.0,
+      "Transmission": 1.0,
+      "Aerodynamics": 1.0,
+      "Brakes": 1.0,
+      "Steering": 1.0,
+      "SteeringAlignment": 0.0,
+      "Dirtyness": 0.0
+    }
+  },
+  {
+    "name": "il gorilla e2",
+    "carNameIndex": 5,
+    "prefabName": "Car_LanciaECV2",
+    "livery": {
+      "Name": "1",
+      "TexturePath": "Prefabs/Cars/Car_LanciaECV2/Liveries/1",
+      "Type": "Standard",
+      "CarPrefabName": "Car_LanciaECV2"
+    },
+    "carClass": "GROUP_S",
+    "carStats": {
+      "YearUnlocked": 1985,
+      "IsUnlocked": false,
+      "YearBonusUnlocked": 1986,
+      "IsBonusUnlocked": false,
+      "UnlockedSaveConstant": "UNLOCKABLE_1985",
+      "BonusUnlockedSaveConstant": "UNLOCKABLE_1986_BONUS",
+      "Engine": "inline 4 - 710 hp",
+      "Gears": 5,
+      "Transmission": "AWD",
+      "Aspiration": "TURBOCHARGED",
+      "Country": "ITALY",
+      "LoreKey": "car_lanciaecv2",
+      "StatsOdometer": "gorillae2_odo",
+      "StatsPodiums": "gorillae2_pod",
+      "StatsEvents": "gorillae2_events"
+    },
+    "performancePartsCondition": {
+      "Engine": 1.0,
+      "Radiator": 1.0,
+      "Turbo": 1.0,
+      "Transmission": 1.0,
+      "Aerodynamics": 1.0,
+      "Brakes": 1.0,
+      "Steering": 1.0,
+      "SteeringAlignment": 0.0,
+      "Dirtyness": 0.0
+    }
+  },
+  {
+    "name": "das superbaus",
+    "carNameIndex": 6,
+    "prefabName": "Car_Kadette",
+    "livery": {
+      "Name": "1",
+      "TexturePath": "Prefabs/Cars/Car_Kadette/Liveries/1",
+      "Type": "Standard",
+      "CarPrefabName": "Car_Kadette"
+    },
+    "carClass": "GROUP_S",
+    "carStats": {
+      "YearUnlocked": 1987,
+      "IsUnlocked": false,
+      "YearBonusUnlocked": 1989,
+      "IsBonusUnlocked": false,
+      "UnlockedSaveConstant": "UNLOCKABLE_1987",
+      "BonusUnlockedSaveConstant": "UNLOCKABLE_1989_BONUS",
+      "Engine": "inline 4 - 640 hp",
+      "Gears": 5,
+      "Transmission": "AWD",
+      "Aspiration": "TURBOCHARGED",
+      "Country": "GERMANY",
+      "LoreKey": "car_kadette",
+      "StatsOdometer": "superbaus_odo",
+      "StatsPodiums": "superbaus_pod",
+      "StatsEvents": "superbaus_events"
+    },
+    "performancePartsCondition": {
+      "Engine": 1.0,
+      "Radiator": 1.0,
+      "Turbo": 1.0,
+      "Transmission": 1.0,
+      "Aerodynamics": 1.0,
+      "Brakes": 1.0,
+      "Steering": 1.0,
+      "SteeringAlignment": 0.0,
+      "Dirtyness": 0.0
+    }
+  },
+  {
+    "name": "the t22",
+    "carNameIndex": 7,
+    "prefabName": "Car_Lada",
+    "livery": {
+      "Name": "1",
+      "TexturePath": "Prefabs/Cars/Car_Lada/Liveries/1",
+      "Type": "Standard",
+      "CarPrefabName": "Car_Lada"
+    },
+    "carClass": "GROUP_S",
+    "carStats": {
+      "YearUnlocked": 1989,
+      "IsUnlocked": false,
+      "YearBonusUnlocked": 1990,
+      "IsBonusUnlocked": false,
+      "UnlockedSaveConstant": "UNLOCKABLE_1989",
+      "BonusUnlockedSaveConstant": "UNLOCKABLE_1990_BONUS",
+      "Engine": "inline 4 - 640 hp",
+      "Gears": 5,
+      "Transmission": "AWD",
+      "Aspiration": "TURBOCHARGED",
+      "Country": "RUSSIA",
+      "LoreKey": "car_lada",
+      "StatsOdometer": "t22_odo",
+      "StatsPodiums": "t22_pod",
+      "StatsEvents": "t22_events"
+    },
+    "performancePartsCondition": {
+      "Engine": 1.0,
+      "Radiator": 1.0,
+      "Turbo": 1.0,
+      "Transmission": 1.0,
+      "Aerodynamics": 1.0,
+      "Brakes": 1.0,
+      "Steering": 1.0,
+      "SteeringAlignment": 0.0,
+      "Dirtyness": 0.0
+    }
+  },
+  {
+    "name": "il gorillona",
+    "carNameIndex": 0,
+    "prefabName": "Car_Deltona",
+    "livery": {
+      "Name": "1",
+      "TexturePath": "Prefabs/Cars/Car_Deltona/Liveries/1",
+      "Type": "Standard",
+      "CarPrefabName": "Car_Deltona"
+    },
+    "carClass": "GROUP_A",
+    "carStats": {
+      "YearUnlocked": 0,
+      "IsUnlocked": true,
+      "YearBonusUnlocked": 1993,
+      "IsBonusUnlocked": false,
+      "UnlockedSaveConstant": null,
+      "BonusUnlockedSaveConstant": "UNLOCKABLE_1993_BONUS",
+      "Engine": "inline 4 - 840 hp",
+      "Gears": 5,
+      "Transmission": "AWD",
+      "Aspiration": "TURBOCHARGED",
+      "Country": "ITALY",
+      "LoreKey": "car_deltona",
+      "StatsOdometer": "gorillona_odo",
+      "StatsPodiums": "gorillona_pod",
+      "StatsEvents": "gorillona_events"
+    },
+    "performancePartsCondition": {
+      "Engine": 1.0,
+      "Radiator": 1.0,
+      "Turbo": 1.0,
+      "Transmission": 1.0,
+      "Aerodynamics": 1.0,
+      "Brakes": 1.0,
+      "Steering": 1.0,
+      "SteeringAlignment": 0.0,
+      "Dirtyness": 0.0
+    }
+  },
+  {
+    "name": "the fujin",
+    "carNameIndex": 1,
+    "prefabName": "Car_WRX",
+    "livery": {
+      "Name": "1",
+      "TexturePath": "Prefabs/Cars/Car_WRX/Liveries/1",
+      "Type": "Standard",
+      "CarPrefabName": "Car_WRX"
+    },
+    "carClass": "GROUP_A",
+    "carStats": {
+      "YearUnlocked": 0,
+      "IsUnlocked": true,
+      "YearBonusUnlocked": 1992,
+      "IsBonusUnlocked": false,
+      "UnlockedSaveConstant": null,
+      "BonusUnlockedSaveConstant": "UNLOCKABLE_1992_BONUS",
+      "Engine": "boxer 4 - 820 hp",
+      "Gears": 5,
+      "Transmission": "AWD",
+      "Aspiration": "TURBOCHARGED",
+      "Country": "JAPAN",
+      "LoreKey": "car_wrx",
+      "StatsOdometer": "fujin_odo",
+      "StatsPodiums": "fujin_pod",
+      "StatsEvents": "fujin_events"
+    },
+    "performancePartsCondition": {
+      "Engine": 1.0,
+      "Radiator": 1.0,
+      "Turbo": 1.0,
+      "Transmission": 1.0,
+      "Aerodynamics": 1.0,
+      "Brakes": 1.0,
+      "Steering": 1.0,
+      "SteeringAlignment": 0.0,
+      "Dirtyness": 0.0
+    }
+  },
+  {
+    "name": "the liftback",
+    "carNameIndex": 2,
+    "prefabName": "Car_Celica185",
+    "livery": {
+      "Name": "1",
+      "TexturePath": "Prefabs/Cars/Car_Celica185/Liveries/1",
+      "Type": "Standard",
+      "CarPrefabName": "Car_Celica185"
+    },
+    "carClass": "GROUP_A",
+    "carStats": {
+      "YearUnlocked": 0,
+      "IsUnlocked": true,
+      "YearBonusUnlocked": 1996,
+      "IsBonusUnlocked": false,
+      "UnlockedSaveConstant": null,
+      "BonusUnlockedSaveConstant": "UNLOCKABLE_1996_BONUS",
+      "Engine": "inline 4 - 810 hp",
+      "Gears": 5,
+      "Transmission": "AWD",
+      "Aspiration": "TURBOCHARGED",
+      "Country": "JAPAN",
+      "LoreKey": "car_celica185",
+      "StatsOdometer": "liftback_odo",
+      "StatsPodiums": "liftback_pod",
+      "StatsEvents": "liftback_events"
+    },
+    "performancePartsCondition": {
+      "Engine": 1.0,
+      "Radiator": 1.0,
+      "Turbo": 1.0,
+      "Transmission": 1.0,
+      "Aerodynamics": 1.0,
+      "Brakes": 1.0,
+      "Steering": 1.0,
+      "SteeringAlignment": 0.0,
+      "Dirtyness": 0.0
+    }
+  },
+  {
+    "name": "the max attack",
+    "carNameIndex": 3,
+    "prefabName": "Car_Evo6",
+    "livery": {
+      "Name": "1",
+      "TexturePath": "Prefabs/Cars/Car_Evo6/Liveries/1",
+      "Type": "Standard",
+      "CarPrefabName": "Car_Evo6"
+    },
+    "carClass": "GROUP_A",
+    "carStats": {
+      "YearUnlocked": 1992,
+      "IsUnlocked": false,
+      "YearBonusUnlocked": 1994,
+      "IsBonusUnlocked": false,
+      "UnlockedSaveConstant": "UNLOCKABLE_1992",
+      "BonusUnlockedSaveConstant": "UNLOCKABLE_1994_BONUS",
+      "Engine": "inline 4 - 800 hp",
+      "Gears": 5,
+      "Transmission": "AWD",
+      "Aspiration": "TURBOCHARGED",
+      "Country": "JAPAN",
+      "LoreKey": "car_evo6",
+      "StatsOdometer": "evo6_odo",
+      "StatsPodiums": "evo6_pod",
+      "StatsEvents": "evo6_events"
+    },
+    "performancePartsCondition": {
+      "Engine": 1.0,
+      "Radiator": 1.0,
+      "Turbo": 1.0,
+      "Transmission": 1.0,
+      "Aerodynamics": 1.0,
+      "Brakes": 1.0,
+      "Steering": 1.0,
+      "SteeringAlignment": 0.0,
+      "Dirtyness": 0.0
+    }
+  },
+  {
+    "name": "the cozzie 90",
+    "carNameIndex": 4,
+    "prefabName": "Car_Cosworth",
+    "livery": {
+      "Name": "1",
+      "TexturePath": "Prefabs/Cars/Car_Cosworth/Liveries/1",
+      "Type": "Standard",
+      "CarPrefabName": "Car_Cosworth"
+    },
+    "carClass": "GROUP_A",
+    "carStats": {
+      "YearUnlocked": 1994,
+      "IsUnlocked": false,
+      "YearBonusUnlocked": 1995,
+      "IsBonusUnlocked": false,
+      "UnlockedSaveConstant": "UNLOCKABLE_1994",
+      "BonusUnlockedSaveConstant": "UNLOCKABLE_1995_BONUS",
+      "Engine": "inline 4 - 820 hp",
+      "Gears": 5,
+      "Transmission": "AWD",
+      "Aspiration": "TURBOCHARGED",
+      "Country": "ENGLAND",
+      "LoreKey": "car_cosworth",
+      "StatsOdometer": "cosworth90_odo",
+      "StatsPodiums": "cosworth90_pod",
+      "StatsEvents": "cosworth90_events"
+    },
+    "performancePartsCondition": {
+      "Engine": 1.0,
+      "Radiator": 1.0,
+      "Turbo": 1.0,
+      "Transmission": 1.0,
+      "Aerodynamics": 1.0,
+      "Brakes": 1.0,
+      "Steering": 1.0,
+      "SteeringAlignment": 0.0,
+      "Dirtyness": 0.0
+    }
+  },
+  {
+    "name": "das speedvan",
+    "carNameIndex": 0,
+    "prefabName": "Bonus_LtVanLow",
+    "livery": {
+      "Name": "1",
+      "TexturePath": "Prefabs/Cars/Bonus_LtVanLow/Liveries/1",
+      "Type": "Standard",
+      "CarPrefabName": "Bonus_LtVanLow"
+    },
+    "carClass": "BONUS_VANS",
+    "carStats": {
+      "YearUnlocked": 1971,
+      "IsUnlocked": false,
+      "YearBonusUnlocked": 1989,
+      "IsBonusUnlocked": false,
+      "UnlockedSaveConstant": "UNLOCKABLE_1971",
+      "BonusUnlockedSaveConstant": "UNLOCKABLE_1989_BONUS",
+      "Engine": "inline 4 - 100 hp",
+      "Gears": 5,
+      "Transmission": "RWD",
+      "Aspiration": "NATURAL",
+      "Country": "GERMANY",
+      "LoreKey": "bonus_lt_low",
+      "StatsOdometer": "speedvan_low_odo",
+      "StatsPodiums": "speedvan_low_pod",
+      "StatsEvents": "speedvan_low_events"
+    },
+    "performancePartsCondition": {
+      "Engine": 1.0,
+      "Radiator": 1.0,
+      "Turbo": 1.0,
+      "Transmission": 1.0,
+      "Aerodynamics": 1.0,
+      "Brakes": 1.0,
+      "Steering": 1.0,
+      "SteeringAlignment": 0.0,
+      "Dirtyness": 0.0
+    }
+  },
+  {
+    "name": "das hi-speedvan",
+    "carNameIndex": 1,
+    "prefabName": "Bonus_LtVanHigh",
+    "livery": {
+      "Name": "1",
+      "TexturePath": "Prefabs/Cars/Bonus_LtVanHigh/Liveries/1",
+      "Type": "Standard",
+      "CarPrefabName": "Bonus_LtVanHigh"
+    },
+    "carClass": "BONUS_VANS",
+    "carStats": {
+      "YearUnlocked": 1988,
+      "IsUnlocked": false,
+      "YearBonusUnlocked": 1987,
+      "IsBonusUnlocked": false,
+      "UnlockedSaveConstant": "UNLOCKABLE_1988",
+      "BonusUnlockedSaveConstant": "UNLOCKABLE_1987_BONUS",
+      "Engine": "inline 4 - 100 hp",
+      "Gears": 5,
+      "Transmission": "RWD",
+      "Aspiration": "NATURAL",
+      "Country": "GERMANY",
+      "LoreKey": "bonus_lt_high",
+      "StatsOdometer": "speedvan_high_odo",
+      "StatsPodiums": "speedvan_high_pod",
+      "StatsEvents": "speedvan_high_events"
+    },
+    "performancePartsCondition": {
+      "Engine": 1.0,
+      "Radiator": 1.0,
+      "Turbo": 1.0,
+      "Transmission": 1.0,
+      "Aerodynamics": 1.0,
+      "Brakes": 1.0,
+      "Steering": 1.0,
+      "SteeringAlignment": 0.0,
+      "Dirtyness": 0.0
+    }
+  },
+  {
+    "name": "das cube van",
+    "carNameIndex": 2,
+    "prefabName": "Bonus_CubeVan",
+    "livery": {
+      "Name": "1",
+      "TexturePath": "Prefabs/Cars/Bonus_CubeVan/Liveries/1",
+      "Type": "Standard",
+      "CarPrefabName": "Bonus_CubeVan"
+    },
+    "carClass": "BONUS_VANS",
+    "carStats": {
+      "YearUnlocked": 1990,
+      "IsUnlocked": false,
+      "YearBonusUnlocked": 1991,
+      "IsBonusUnlocked": false,
+      "UnlockedSaveConstant": "UNLOCKABLE_1990",
+      "BonusUnlockedSaveConstant": "UNLOCKABLE_1991_BONUS",
+      "Engine": "inline 4 - 100 hp",
+      "Gears": 5,
+      "Transmission": "RWD",
+      "Aspiration": "NATURAL",
+      "Country": "GERMANY",
+      "LoreKey": "bonus_lt_cube",
+      "StatsOdometer": "cubevan_odo",
+      "StatsPodiums": "cubevan_pod",
+      "StatsEvents": "cubevan_events"
+    },
+    "performancePartsCondition": {
+      "Engine": 1.0,
+      "Radiator": 1.0,
+      "Turbo": 1.0,
+      "Transmission": 1.0,
+      "Aerodynamics": 1.0,
+      "Brakes": 1.0,
+      "Steering": 1.0,
+      "SteeringAlignment": 0.0,
+      "Dirtyness": 0.0
+    }
+  },
+  {
+    "name": "funselektor's van",
+    "carNameIndex": 3,
+    "prefabName": "Bonus_DuneVan",
+    "livery": {
+      "Name": "1",
+      "TexturePath": "Prefabs/Cars/Bonus_DuneVan/Liveries/1",
+      "Type": "Standard",
+      "CarPrefabName": "Bonus_DuneVan"
+    },
+    "carClass": "BONUS_VANS",
+    "carStats": {
+      "YearUnlocked": 1996,
+      "IsUnlocked": false,
+      "YearBonusUnlocked": 1996,
+      "IsBonusUnlocked": false,
+      "UnlockedSaveConstant": "UNLOCKABLE_1996",
+      "BonusUnlockedSaveConstant": "UNLOCKABLE_1996_BONUS",
+      "Engine": "V6 - 400 hp",
+      "Gears": 5,
+      "Transmission": "RWD",
+      "Aspiration": "TURBOCHARGED",
+      "Country": "AMERICA",
+      "LoreKey": "bonus_dunevan",
+      "StatsOdometer": "funselektor_van_odo",
+      "StatsPodiums": "funselektor_van_pod",
+      "StatsEvents": "funselektor_van_events"
+    },
+    "performancePartsCondition": {
+      "Engine": 1.0,
+      "Radiator": 1.0,
+      "Turbo": 1.0,
+      "Transmission": 1.0,
+      "Aerodynamics": 1.0,
+      "Brakes": 1.0,
+      "Steering": 1.0,
+      "SteeringAlignment": 0.0,
+      "Dirtyness": 0.0
+    }
+  },
+  {
+    "name": "little monkey",
+    "carNameIndex": 0,
+    "prefabName": "Bonus_Piaggio",
+    "livery": {
+      "Name": "1",
+      "TexturePath": "Prefabs/Cars/Bonus_Piaggio/Liveries/1",
+      "Type": "Standard",
+      "CarPrefabName": "Bonus_Piaggio"
+    },
+    "carClass": "BONUS_PIAGGIO",
+    "carStats": {
+      "YearUnlocked": 1986,
+      "IsUnlocked": false,
+      "YearBonusUnlocked": 1993,
+      "IsBonusUnlocked": false,
+      "UnlockedSaveConstant": "UNLOCKABLE_1986",
+      "BonusUnlockedSaveConstant": "UNLOCKABLE_1993_BONUS",
+      "Engine": "inline 2 - 20 hp",
+      "Gears": 4,
+      "Transmission": "RWD",
+      "Aspiration": "NATURAL",
+      "Country": "ITALY",
+      "LoreKey": "bonus_piaggio",
+      "StatsOdometer": "monkey_odo",
+      "StatsPodiums": "monkey_pod",
+      "StatsEvents": "monkey_events"
+    },
+    "performancePartsCondition": {
+      "Engine": 1.0,
+      "Radiator": 1.0,
+      "Turbo": 1.0,
+      "Transmission": 1.0,
+      "Aerodynamics": 1.0,
+      "Brakes": 1.0,
+      "Steering": 1.0,
+      "SteeringAlignment": 0.0,
+      "Dirtyness": 0.0
+    }
+  },
+  {
+    "name": "log transporter",
+    "carNameIndex": 0,
+    "prefabName": "Bonus_LoggingScania",
+    "livery": {
+      "Name": "1",
+      "TexturePath": "Prefabs/Cars/Bonus_LoggingScania/Liveries/1",
+      "Type": "Standard",
+      "CarPrefabName": "Bonus_LoggingScania"
+    },
+    "carClass": "BONUS_LOGGING",
+    "carStats": {
+      "YearUnlocked": 1981,
+      "IsUnlocked": false,
+      "YearBonusUnlocked": 1995,
+      "IsBonusUnlocked": false,
+      "UnlockedSaveConstant": "UNLOCKABLE_1981",
+      "BonusUnlockedSaveConstant": "UNLOCKABLE_1995_BONUS",
+      "Engine": "inline 4 - 710 hp",
+      "Gears": 5,
+      "Transmission": "RWD",
+      "Aspiration": "NATURAL",
+      "Country": "SWEDEN",
+      "LoreKey": "bonus_loggingscania",
+      "StatsOdometer": "small_logger_odo",
+      "StatsPodiums": "small_logger_pod",
+      "StatsEvents": "small_logger_events"
+    },
+    "performancePartsCondition": {
+      "Engine": 1.0,
+      "Radiator": 1.0,
+      "Turbo": 1.0,
+      "Transmission": 1.0,
+      "Aerodynamics": 1.0,
+      "Brakes": 1.0,
+      "Steering": 1.0,
+      "SteeringAlignment": 0.0,
+      "Dirtyness": 0.0
+    }
+  },
+  {
+    "name": "dakar truck",
+    "carNameIndex": 0,
+    "prefabName": "Bonus_DakarTruck",
+    "livery": {
+      "Name": "1",
+      "TexturePath": "Prefabs/Cars/Bonus_DakarTruck/Liveries/1",
+      "Type": "Standard",
+      "CarPrefabName": "Bonus_DakarTruck"
+    },
+    "carClass": "BONUS_DAKAR",
+    "carStats": {
+      "YearUnlocked": 1991,
+      "IsUnlocked": false,
+      "YearBonusUnlocked": 1992,
+      "IsBonusUnlocked": false,
+      "UnlockedSaveConstant": "UNLOCKABLE_1991",
+      "BonusUnlockedSaveConstant": "UNLOCKABLE_1992_BONUS",
+      "Engine": "inline 4 - 1020 hp",
+      "Gears": 5,
+      "Transmission": "AWD",
+      "Aspiration": "NATURAL",
+      "Country": "RUSSIA",
+      "LoreKey": "bonus_kamaz",
+      "StatsOdometer": "dakar_truck_odo",
+      "StatsPodiums": "dakar_truck_pod",
+      "StatsEvents": "dakar_truck_events"
+    },
+    "performancePartsCondition": {
+      "Engine": 1.0,
+      "Radiator": 1.0,
+      "Turbo": 1.0,
+      "Transmission": 1.0,
+      "Aerodynamics": 1.0,
+      "Brakes": 1.0,
+      "Steering": 1.0,
+      "SteeringAlignment": 0.0,
+      "Dirtyness": 0.0
+    }
+  }
+]

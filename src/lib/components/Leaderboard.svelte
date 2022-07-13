@@ -5,6 +5,8 @@
   import {flagCodes} from "../leaderboard/flag-codes"
   import {makeUrl} from "../leaderboard/leaderboard"
   import {leaderboardFilters} from "../leaderboard/data/filter"
+  import {cars} from "../leaderboard/data/cars"
+  import {getCarById} from "../leaderboard/data/cars.js"
 
   export let platform: number
   export let weather: string
@@ -26,8 +28,7 @@
           <td>{entry.rank}</td>
           <td>{entry.userName || entry.platformUserName}</td>
           <td class="time">{formatTime(entry.score)}</td>
-
-          <td>CarID: {entry.carID}</td>
+          <td>{getCarById(group, entry.carID).name}</td>
           <td
             ><img
               class="flag-img"
@@ -76,7 +77,7 @@
   }
 
   td {
-    max-width: min(140px, 15vw);
+    max-width: min(120px, 15vw);
     padding: 2px;
     white-space: nowrap;
     overflow: hidden;
