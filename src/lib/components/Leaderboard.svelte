@@ -5,8 +5,7 @@
   import {flagCodes} from "../leaderboard/flag-codes"
   import {makeUrl} from "../leaderboard/leaderboard"
   import {leaderboardFilters} from "../leaderboard/data/filter"
-  import {cars} from "../leaderboard/data/cars"
-  import {getCarById} from "../leaderboard/data/cars.js"
+  import {getCarById} from "../leaderboard/data/cars"
 
   export let platform: number
   export let weather: string

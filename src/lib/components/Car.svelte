@@ -37,11 +37,20 @@
   </table>
 </section>
 
-<style>
+<style lang="scss">
   h3 {
     font-size: 32px;
     height: fit-content;
     margin-top: 0;
+  }
+
+  th {
+    text-align: left;
+  }
+  td {
+    text-align: right;
+    white-space: nowrap;
+    overflow: visible;
   }
 
   section {
@@ -61,6 +70,8 @@
     display: grid;
     place-items: center;
     grid-template-rows: 1fr auto;
+
+    will-change: filter;
   }
 
   :global(.swiper-slide) > section {
@@ -71,8 +82,18 @@
     filter: brightness(1);
   }
 
+  // table {
+  //   display: none;
+  // }
+  // :global(.swiper-slide-visible) {
+  //   table {
+  //     display: table;
+  //   }
+  // }
+
   img {
     width: 32px;
     aspect-ratio: 1;
+    object-fit: contain;
   }
 </style>
