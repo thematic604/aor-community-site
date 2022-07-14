@@ -10,3 +10,8 @@ export const groups = [
   {name: "Trucks", id: "Bonus_Dakar"},
   {name: "Logging", id: "Bonus_Logging"},
 ]
+
+export const groupNames = groups.reduce<Record<string, string>>((acc, group) => {
+  acc[group.id] = group.name
+  return acc
+}, {})

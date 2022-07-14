@@ -24,7 +24,46 @@ export function getCarById(group: string, id: number) {
   return cars[group][id]
 }
 
-export type Car = typeof carsRaw[0]
+export interface Car {
+  name: string
+  carNameIndex: number
+  prefabName: string
+  livery: {
+    Name: string
+    TexturePath: string
+    Type: string
+    CarPrefabName: string
+  }
+  carClass: string
+  carStats: {
+    YearUnlocked: number
+    IsUnlocked: boolean
+    YearBonusUnlocked: number
+    IsBonusUnlocked: boolean
+    UnlockedSaveConstant: string | null
+    BonusUnlockedSaveConstant: string
+    Engine: string
+    Gears: number
+    Transmission: string
+    Aspiration: string
+    Country: string
+    LoreKey: string
+    StatsOdometer: string
+    StatsPodiums: string
+    StatsEvents: string
+  }
+  performancePartsCondition: {
+    Engine: number
+    Radiator: number
+    Turbo: number
+    Transmission: number
+    Aerodynamics: number
+    Brakes: number
+    Steering: number
+    SteeringAlignment: number
+    Dirtyness: number
+  }
+}
 
 export const carCountries = {
   ENGLAND: "en",

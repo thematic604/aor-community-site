@@ -1,12 +1,12 @@
-<script>
+<script lang="ts">
   import "../lib/style/font.scss"
+  import {page} from "$app/stores"
 </script>
 
-<nav class="title">
-  <h1>leaderboard</h1>
-</nav>
-
 <main>
+  <nav class="title">
+    <h1>{$page.routeId}</h1>
+  </nav>
   <slot />
 </main>
 
@@ -26,6 +26,7 @@
 
     h1 {
       font-size: 24px;
+      text-transform: lowercase;
     }
   }
 
