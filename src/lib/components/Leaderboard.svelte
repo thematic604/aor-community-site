@@ -28,7 +28,11 @@
           <th>{entry.rank}</th>
           <td>{entry.userName || entry.platformUserName}</td>
           <td class="time">{formatTime(entry.score)}</td>
-          <td><a href="/car/{group}/{entry.carID}">{getCarById(group, entry.carID).name}</a></td>
+          <td
+            ><a href="/cars#{getCarById(group, entry.carID).name.replace(/\s/g, '-')}"
+              >{getCarById(group, entry.carID).name}</a
+            ></td
+          >
           <td
             ><img
               class="flag-img"
