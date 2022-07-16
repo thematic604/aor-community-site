@@ -36,7 +36,7 @@ export function makeUrl({
   platform: number
   filter: number
 }) {
-  const url = `/leaderboard/${area}_Stage_${stage}_${direction}_${weather}_${group}/${filter}/${platform}`
+  const url = `http://188.68.55.50:40471/leaderboard/${area}_Stage_${stage}_${direction}_${weather}_${group}/${filter}/${platform}`
 
   console.log(url)
 

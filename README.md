@@ -1,18 +1,14 @@
-# create-svelte
+# Art of Rally - Community Site
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+This a community-made site for the game Art of Rally.
 
-## Creating a project
+## Features
 
-If you're seeing this, you've probably already done this step. Congrats!
+### Leaderboard
 
-```bash
-# create a new project in the current directory
-npm init svelte
+### Car Stats (WIP)
 
-# create a new project in my-app
-npm init svelte my-app
-```
+### Mods (WIP)
 
 ## Developing
 
@@ -25,7 +21,7 @@ npm run dev
 npm run dev -- --open
 ```
 
-## Building
+### Building
 
 To create a production version of your app:
 
@@ -34,5 +30,3 @@ npm run build
 ```
 
 You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.

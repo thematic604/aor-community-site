@@ -57,6 +57,7 @@
     padding: 2px;
 
     overflow-y: auto;
+    scrollbar-gutter: stable both-edges;
   }
 
   .swiper-container {

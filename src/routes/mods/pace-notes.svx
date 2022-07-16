@@ -1,0 +1,6 @@
+---
+title: Splits
+url: https://github.com/Theaninova/ArtOfRallyPaceNotes
+description: Fully customizable pace notes for Art of Rally
+image: https://raw.githubusercontent.com/Theaninova/ArtOfRallyPaceNotes/master/thumbnail.png
+---
