@@ -48,8 +48,7 @@
     left: 50%;
     transform: translateX(-50%);
     z-index: 2;
-    -webkit-backdrop-filter: brightness(0.6);
-    backdrop-filter: brightness(0.6);
+    background-color: #0006;
     height: min(calc(100% - (#{$stage-slide-height} + 140px + 8px)), 550px);
     width: min(410px, calc(100% - 8px));
 
@@ -57,7 +56,12 @@
     padding: 2px;
 
     overflow-y: auto;
-    scrollbar-gutter: stable both-edges;
+  }
+
+  @media (hover: hover) {
+    .stage-form {
+      scrollbar-gutter: stable both-edges;
+    }
   }
 
   .swiper-container {

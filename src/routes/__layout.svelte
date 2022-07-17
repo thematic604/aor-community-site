@@ -17,15 +17,18 @@
       -webkit-tap-highlight-color: transparent;
     }
   }
-  ::-webkit-scrollbar {
-    width: 8px;
-  }
-  ::-webkit-scrollbar-track {
-    background-color: transparent;
-  }
-  ::-webkit-scrollbar-thumb {
-    background-color: rgba(190, 190, 190, 0.3);
-    border-radius: 4px;
+
+  @media (hover: hover) {
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background-color: transparent;
+    }
+    ::-webkit-scrollbar-thumb {
+      background-color: rgba(190, 190, 190, 0.3);
+      border-radius: 4px;
+    }
   }
 
   nav {

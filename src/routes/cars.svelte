@@ -62,7 +62,6 @@
 </div>
 
 <style lang="scss">
-  .fake-h1,
   h1 {
     text-transform: lowercase;
     margin-left: 32px;

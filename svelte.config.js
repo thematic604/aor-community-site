@@ -12,7 +12,11 @@ const config = {
   ],
   extensions: [".svelte", ".svx"],
   kit: {
+    trailingSlash: "always",
     adapter: adapter(),
+    prerender: {
+      default: true,
+    },
   },
 }
 

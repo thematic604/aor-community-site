@@ -1,8 +1,7 @@
 <script lang="ts">
   import {Swiper, SwiperSlide} from "swiper/svelte"
-
-  import "swiper/css"
   import "swiper/css/effect-cards"
+  import "swiper/css"
   import {EffectCards, Mousewheel} from "swiper"
   import type {Area} from "../leaderboard/data/stage/area"
   import Image from "./Image.svelte"
@@ -15,6 +14,7 @@
   <Swiper
     modules={[EffectCards, Mousewheel]}
     effect="cards"
+    grabCursor={true}
     nested={true}
     on:activeIndexChange={swiper => {
       stage = area.stages[swiper.detail[0].activeIndex].id
@@ -44,8 +44,8 @@
   @import "../style/stage-slide";
 
   .container {
-    width: 240px;
     margin-inline: auto;
+    width: 240px;
 
     color: black;
     font-size: 24px;
@@ -56,28 +56,28 @@
       padding: 8px;
       background-color: white;
     }
+    > :global(.swiper) {
+      overflow: visible;
+    }
 
     p {
       margin: 0;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
     }
-  }
 
-  :global(img) {
-    height: calc(100% - 40px);
-    width: 100%;
-    object-fit: cover;
-  }
+    :global(img) {
+      height: calc(100% - 40px);
+      width: 100%;
+      object-fit: cover;
+    }
 
-  :global(img.minimap) {
-    position: absolute;
-    object-fit: contain;
-    top: 0;
-    left: 0;
-  }
-
-  p {
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
+    :global(img.minimap) {
+      position: absolute;
+      object-fit: contain;
+      top: 0;
+      left: 0;
+    }
   }
 </style>
