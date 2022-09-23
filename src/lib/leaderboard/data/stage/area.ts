@@ -89,4 +89,17 @@ export const areas: Area[] = [
       {name: "lake nakuru", id: 6},
     ],
   },
+  {
+    name: "Indonesia",
+    id: "Indonesia",
+    image: "indonesia",
+    stages: [
+      {name: "mount kawi", id: 1},
+      {name: "semangka bay", id: 2},
+      {name: "satonda island", id: 3},
+      {name: "oreng valley", id: 4},
+      {name: "sangeang island", id: 5},
+      {name: "kalabakan valley", id: 6},
+    ],
+  },
 ]

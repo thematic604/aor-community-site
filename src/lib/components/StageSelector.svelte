@@ -76,6 +76,8 @@
     :global(img.minimap) {
       position: absolute;
       object-fit: contain;
+      padding: 16px;
+      box-sizing: border-box;
       top: 0;
       left: 0;
     }
