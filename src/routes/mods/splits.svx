@@ -1,8 +1,0 @@
----
-title: Splits
-url: https://github.com/Theaninova/ArtOfRallySplits
-description: Fully customizable splits for Art of Rally
-image: https://raw.githubusercontent.com/Theaninova/ArtOfRallySplits/master/thumbnail.png
----
-
-# Splits

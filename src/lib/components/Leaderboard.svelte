@@ -6,7 +6,7 @@
   import {makeUrl} from "../leaderboard/leaderboard"
   import {leaderboardFilters} from "../leaderboard/data/filter"
   import {getCarById} from "../leaderboard/data/cars"
-  import {browser} from "$app/env"
+  import {browser} from "$app/environment"
 
   export let platform: number
   export let weather: string

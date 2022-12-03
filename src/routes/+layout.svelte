@@ -1,11 +1,11 @@
 <script lang="ts">
-  import "../lib/style/font.scss"
+  import "$lib/style/font.scss"
   import {page} from "$app/stores"
 </script>
 
 <main>
   <nav class="title">
-    <h1>{$page.routeId}</h1>
+    <h1>{$page.route.id}</h1>
   </nav>
   <slot />
 </main>
@@ -29,6 +29,16 @@
       background-color: rgba(190, 190, 190, 0.3);
       border-radius: 4px;
     }
+  }
+
+  html {
+    box-sizing: border-box;
+  }
+
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
   }
 
   nav {

@@ -1,10 +1,10 @@
 <script lang="ts">
-  import {cars} from "../lib/leaderboard/data/cars"
+  import {cars} from "$lib/leaderboard/data/cars"
   import {Swiper, SwiperSlide} from "swiper/svelte"
 
   import "swiper/css"
-  import Car from "../lib/components/Car.svelte"
-  import {groupNames} from "../lib/leaderboard/data/stage/group"
+  import Car from "$lib/components/Car.svelte"
+  import {groupNames} from "$lib/leaderboard/data/stage/group"
   import {Controller, HashNavigation, Navigation, Parallax} from "swiper"
 
   let controlledSwiper = null

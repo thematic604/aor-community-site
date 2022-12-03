@@ -1,5 +1,5 @@
 <script lang="ts">
-  import {SETUP} from "../../lib/leaderboard/config-file"
+  import {SETUP} from "$lib/leaderboard/config-file"
   import GroupRow from "$lib/components/GroupRow.svelte"
 </script>
 

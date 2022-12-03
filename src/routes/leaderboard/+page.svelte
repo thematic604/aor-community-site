@@ -1,12 +1,12 @@
 <script lang="ts">
-  import {areas} from "../../lib/leaderboard/data/stage/area"
+  import {areas} from "$lib/leaderboard/data/stage/area"
   import {Swiper, SwiperSlide} from "swiper/svelte"
   import {HashNavigation, Navigation, Parallax} from "swiper"
   import "swiper/css"
   import "swiper/css/navigation"
-  import AreaPage from "../../lib/components/AreaPage.svelte"
-  import StageForm from "../../lib/components/StageForm.svelte"
-  import Leaderboard from "../../lib/components/Leaderboard.svelte"
+  import AreaPage from "$lib/components/AreaPage.svelte"
+  import StageForm from "$lib/components/StageForm.svelte"
+  import Leaderboard from "$lib/components/Leaderboard.svelte"
 
   let platform: number
   let weather: string
