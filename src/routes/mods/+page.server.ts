@@ -19,7 +19,5 @@ export const load: PageServerLoad = async ({fetch}) => {
     }),
   )
 
-  console.log(results)
-
   return {items: results.filter(it => it !== null)}
 }
