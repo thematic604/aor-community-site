@@ -17,6 +17,48 @@ export interface LeaderboardResponse {
   leaderboard: LeaderboardEntry[]
 }
 
+export function makeLeaderboardString({
+  area,
+  stage,
+  direction,
+  weather,
+  group,
+}: {
+  area: string
+  stage: number
+  direction: string
+  group: string
+  weather: string
+}): string {
+  return `${area}_Stage_${stage}_${direction}_${weather}_${group}`
+}
+
+export function makeUserUrl({
+  area,
+  stage,
+  direction,
+  weather,
+  group,
+  platform,
+  userId,
+}: {
+  area: string
+  stage: number
+  direction: string
+  group: string
+  weather: string
+  platform: number
+  userId: string
+}) {
+  return `http://188.68.55.50:40471/leaderboard/${makeLeaderboardString({
+    area,
+    stage,
+    direction,
+    weather,
+    group,
+  })}/1/${platform}/${userId}`
+}
+
 export function makeUrl({
   area,
   stage,
@@ -34,5 +76,11 @@ export function makeUrl({
   platform: number
   filter: number
 }): string {
-  return `http://188.68.55.50:40471/leaderboard/${area}_Stage_${stage}_${direction}_${weather}_${group}/${filter}/${platform}`
+  return `http://188.68.55.50:40471/leaderboard/${makeLeaderboardString({
+    area,
+    stage,
+    direction,
+    weather,
+    group,
+  })}/${filter}/${platform}`
 }

@@ -1,5 +1,4 @@
 <script lang="ts">
-  import {leaderboardPlatforms} from "../leaderboard/data/platform"
   import {leaderboardWeathers} from "../leaderboard/data/stage/weather"
   import {leaderboardDirection} from "../leaderboard/data/stage/direction"
   import {groups} from "../leaderboard/data/stage/group"
@@ -8,6 +7,7 @@
   import "swiper/css"
   import "swiper/css/navigation"
   import {Navigation} from "swiper"
+  import PlatformSelector from "$lib/components/PlatformSelector.svelte"
 
   export let platform = 2
   export let weather = "Dry"
@@ -20,17 +20,7 @@
 </script>
 
 <form>
-  <fieldset class="platforms">
-    {#each leaderboardPlatforms as leaderboardPlatform}
-      <input
-        type="radio"
-        name="platform"
-        value={leaderboardPlatform.id}
-        bind:group={platform}
-        style="background-image: url('/platforms/{leaderboardPlatform.name}.svg')"
-      />
-    {/each}
-  </fieldset>
+  <PlatformSelector bind:platform />
   <fieldset class="weather">
     <div>
       {#each leaderboardWeathers as leaderboardWeather}
@@ -89,18 +79,6 @@
   .weather {
     display: flex;
     justify-content: space-between;
-  }
-
-  input[name="platform"] {
-    cursor: pointer;
-
-    background-size: contain;
-    border-radius: 0;
-
-    width: 32px;
-    height: 32px;
-
-    transition: all 0.2s ease-in-out;
   }
 
   input[name="reverse"]::after,

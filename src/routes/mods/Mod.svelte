@@ -43,7 +43,7 @@
           <span>•</span><span>•</span><span>•</span>
         </a>
       {/if}
-      <a href={result.owner.html_url} target="_blank" class="owner">
+      <a href={result.owner.html_url} target="_blank" rel="noreferrer" class="owner">
         <div style="background-image: url('{result.owner.avatar_url}')" />
         {result.owner.login}
       </a>

@@ -47,7 +47,7 @@ export const areas: Area[] = [
       {name: "mount akagi", id: 3},
       {name: "nikko", id: 4},
       {name: "mount haruna", id: 5},
-      {name: "haapajärvi", id: 6},
+      {name: "tsumagoi", id: 6},
     ],
   },
   {
