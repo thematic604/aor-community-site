@@ -37,6 +37,10 @@
         return it
       })
     : undefined
+
+  $: {
+    console.log(data.stage)
+  }
 </script>
 
 <div>
@@ -65,9 +69,14 @@
               scale={{x: 1, y: -1, z: 1}}
               rotation={new Euler(terrain.rotation.x - Math.PI / 2, terrain.rotation.y, terrain.rotation.z)}
               position={new Vector3(terrain.position.x, terrain.position.y, terrain.position.z).add(
-                new Vector3(2048, -1024 / 3.7, 2048).divideScalar(2),
+                new Vector3(terrain.position.x * -2, -1024 / 3, terrain.position.z * -2).divideScalar(2),
               )}
-              geometry={new PlaneGeometry(2048, 2048, 1024, 1024)}
+              geometry={new PlaneGeometry(
+                Math.abs(terrain.position.x * 2),
+                Math.abs(terrain.position.z * 2),
+                1024,
+                1024,
+              )}
               material={new MeshStandardMaterial({
                 color: "#0e0e0e",
                 roughness: 0.5,
