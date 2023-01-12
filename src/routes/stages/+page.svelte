@@ -65,18 +65,18 @@
               scale={{x: 1, y: -1, z: 1}}
               rotation={new Euler(terrain.rotation.x - Math.PI / 2, terrain.rotation.y, terrain.rotation.z)}
               position={new Vector3(terrain.position.x, terrain.position.y, terrain.position.z).add(
-                new Vector3(2048, -200, 2048).divideScalar(2),
+                new Vector3(2048, -1024 / 3.7, 2048).divideScalar(2),
               )}
-              geometry={new PlaneGeometry(2048, 2048, 1000, 1000)}
+              geometry={new PlaneGeometry(2048, 2048, 1024, 1024)}
               material={new MeshStandardMaterial({
                 color: "#0e0e0e",
                 roughness: 0.5,
                 bumpMap: heightMap,
-                bumpScale: 2048 / 3,
+                bumpScale: 1024,
                 // normalMap: normalMap,
                 // normalScale: 2000,
                 displacementMap: heightMap,
-                displacementScale: 2048 / 3,
+                displacementScale: 1024,
               })}
             />
           {/each}
