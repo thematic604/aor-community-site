@@ -1,17 +1,32 @@
 import fs from "fs"
 import yaml from "js-yaml"
-import {findWaypoints} from "./waypoints"
+import {findRoadNetwork} from "./road-network"
 import {findTerrain} from "./terrain"
 import {findResetZones} from "./resets"
 import {findTimingGates} from "./timing-gates"
-import {findHayBales} from "./hay-bales"
+import type {TransformedObject} from "./timing-gates"
+import {findProps} from "./props"
+import {findGameObjectTransform, findGameObjectTransformInChildren, toTransformedObject} from "../util"
+
+export interface StaticObjects extends TransformedObject {
+  terrain: ReturnType<typeof findTerrain>
+  props: ReturnType<typeof findProps>
+}
+
+export interface DynamicObjects extends TransformedObject {
+  resetZones: ReturnType<typeof findResetZones>
+  roadNetwork: ReturnType<typeof findRoadNetwork>
+  props: ReturnType<typeof findProps>
+}
+
+export interface Prefabs extends TransformedObject {
+  timingGates: ReturnType<typeof findTimingGates>
+}
 
 export interface Stage {
-  terrain: ReturnType<typeof findTerrain>
-  timingGates: ReturnType<typeof findTimingGates>
-  resetZones: ReturnType<typeof findResetZones>
-  waypoints: ReturnType<typeof findWaypoints>
-  hayBales: ReturnType<typeof findHayBales>
+  staticObjects: StaticObjects
+  dynamicObjects: DynamicObjects
+  prefabs: Prefabs
 }
 
 export function readStage(path: string): Stage {
@@ -26,26 +41,40 @@ export function readStage(path: string): Stage {
       }),
   )
 
-  console.log(
-    JSON.stringify(
-      [
-        ...new Set(
-          Object.values(parsedStage)
-            .map(it => it["GameObject"]?.m_TagString)
-            .filter(it => typeof it === "string")
-            .filter(it => !it.startsWith("Waypoint") && !it.startsWith("Terrain") && !it.startsWith("Reset")),
-        ),
-      ],
-      null,
-      2,
-    ),
-  )
+  // console.log(
+  //   JSON.stringify(
+  //     [
+  //       ...new Set(
+  //         Object.values(parsedStage)
+  //           .map(it => it["GameObject"]?.m_TagString)
+  //           .filter(it => typeof it === "string")
+  //           .filter(it => !it.startsWith("Waypoint") && !it.startsWith("Terrain") && !it.startsWith("Reset")),
+  //       ),
+  //     ],
+  //     null,
+  //     2,
+  //   ),
+  // )
 
+  const world = findGameObjectTransform("World", parsedStage)
+  const staticObjects = findGameObjectTransformInChildren(/Static\s*Objects/, world, parsedStage)
+  const dynamicObjects = findGameObjectTransformInChildren(/Dynamic\s*Objects/, world, parsedStage)
+  const prefabs = findGameObjectTransform(/(Scene\s*)?[Pp]refabs/, parsedStage)
   return {
-    terrain: findTerrain(parsedStage),
-    timingGates: findTimingGates(parsedStage),
-    resetZones: findResetZones(parsedStage),
-    waypoints: findWaypoints(parsedStage),
-    hayBales: findHayBales(parsedStage),
+    staticObjects: {
+      ...toTransformedObject(staticObjects, parsedStage),
+      terrain: findTerrain(parsedStage),
+      props: findProps(staticObjects, parsedStage),
+    },
+    dynamicObjects: {
+      ...toTransformedObject(dynamicObjects, parsedStage),
+      resetZones: findResetZones(parsedStage),
+      roadNetwork: findRoadNetwork(parsedStage),
+      props: findProps(dynamicObjects, parsedStage),
+    },
+    prefabs: {
+      ...toTransformedObject(prefabs, parsedStage),
+      timingGates: findTimingGates(parsedStage),
+    },
   }
 }

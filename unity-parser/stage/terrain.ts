@@ -1,22 +1,33 @@
-export interface Terrain {
-  name: string
-  xStart: number
-  zStart: number
+import type {TransformedObject} from "./timing-gates"
+import {
+  findGameObject,
+  findGameObjectTransform,
+  findType,
+  getGameObjectTransform,
+  getTransformChildren,
+  getTransformGameObject,
+  toTransformedObject,
+} from "../util"
+
+export interface Terrain extends TransformedObject {
+  // xStart: number
+  // zStart: number
 }
 
-export function findTerrain(stage: Record<number, any>): Terrain {
-  return Object.values(stage)
-    .filter(it => it["Terrain"])
-    .map(it => {
-      const gameObject = stage[it["Terrain"].m_GameObject.fileID]["GameObject"]
-      const terrainData = gameObject.m_Component
-        .map((it: any) => stage[it.component.fileID])
-        .find((it: any) => it["MonoBehaviour"])["MonoBehaviour"]
+export function findTerrain(stage: Record<number, any>): TransformedObject<Terrain> {
+  const gaiaTransform = findGameObjectTransform("Gaia Environment", stage)
+  //  const terrain = findType("Terrain", stage)
+  //  const gameObject = getTransformGameObject(terrain, stage)
+  //  const transform = getGameObjectTransform(gameObject, stage)
+  //
+  //  const terrainData = gameObject.m_Component
+  //    .map((it: any) => stage[it.component.fileID])
+  //    .find((it: any) => it["MonoBehaviour"])["MonoBehaviour"]
 
-      return {
-        name: gameObject.m_Name,
-        xStart: terrainData.xStart,
-        zStart: terrainData.zStart,
-      }
-    })[0]
+  return {
+    ...toTransformedObject(gaiaTransform, stage),
+    children: getTransformChildren(gaiaTransform, stage).map(it => ({
+      ...toTransformedObject(it, stage),
+    })),
+  }
 }
