@@ -89,9 +89,14 @@
 </section>
 
 <style lang="scss">
+  @use "sass:list";
+  @use "sass:color";
+
+  $bg: hsl(120deg 40% 60% / 40%), hsl(140deg 40% 60% / 40%);
+
   .vertical {
-    writing-mode: vertical-rl;
     transform: rotateZ(180deg);
+    writing-mode: vertical-rl;
   }
 
   td:has(input) {
@@ -99,19 +104,20 @@
   }
 
   input[type="checkbox"] {
-    appearance: none;
-    margin: 0;
-    min-width: 32px;
-    min-height: 32px;
-    width: 100%;
-    height: 100%;
     display: block;
-  }
 
-  $bg: hsla(120deg, 40%, 60%, 0.4), hsla(140deg, 40%, 60%, 0.4);
+    width: 100%;
+    min-width: 32px;
+    height: 100%;
+    min-height: 32px;
+    margin: 0;
+
+    appearance: none;
+  }
   @for $i from 0 through 1 {
     .area-#{$i} {
-      $bg-local: nth($bg, $i + 1);
+      $bg-local: list.nth($bg, $i + 1);
+
       background: $bg-local;
 
       td:has(:checked) {
@@ -119,7 +125,8 @@
       }
 
       &.direction-1 {
-        $bg-dir-1: darken($bg-local, 5%);
+        $bg-dir-1: color.adjust($bg-local, $lightness: -5%);
+
         background: $bg-dir-1;
 
         td:has(:checked) {
@@ -128,7 +135,8 @@
       }
 
       &.stage-1 {
-        $bg-1: desaturate($bg-local, 10%);
+        $bg-1: color.adjust($bg-local, $saturation: -10%);
+
         background: $bg-1;
 
         td:has(:checked) {
@@ -136,7 +144,8 @@
         }
 
         &.direction-1 {
-          $bg-dir-1: darken($bg-1, 5%);
+          $bg-dir-1: color.adjust($bg-1, $lightness: -5%);
+
           background: $bg-dir-1;
 
           td:has(:checked) {

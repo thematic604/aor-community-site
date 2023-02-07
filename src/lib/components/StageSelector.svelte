@@ -44,42 +44,45 @@
   @import "../style/stage-slide";
 
   .container {
-    margin-inline: auto;
     width: 240px;
+    margin-inline: auto;
 
-    color: black;
     font-size: 24px;
     font-weight: bold;
+    color: black;
 
     > :global(.swiper > .swiper-wrapper > .swiper-slide) {
       height: $stage-slide-height;
       padding: 8px;
       background-color: white;
     }
+
     > :global(.swiper) {
       overflow: visible;
     }
 
     p {
-      margin: 0;
       overflow: hidden;
-      white-space: nowrap;
+      margin: 0;
       text-overflow: ellipsis;
+      white-space: nowrap;
     }
 
     :global(img) {
-      height: calc(100% - 40px);
       width: 100%;
+      height: calc(100% - 40px);
       object-fit: cover;
     }
 
     :global(img.minimap) {
       position: absolute;
-      object-fit: contain;
-      padding: 16px;
-      box-sizing: border-box;
       top: 0;
       left: 0;
+
+      box-sizing: border-box;
+      padding: 16px;
+
+      object-fit: contain;
     }
   }
 </style>

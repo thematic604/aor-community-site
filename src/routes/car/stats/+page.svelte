@@ -38,33 +38,30 @@
 <style lang="scss">
   fieldset {
     margin: auto;
+    border-bottom: none;
   }
 
   th.group-separator {
-    background: black;
     color: white;
+    background: black;
   }
 
   table {
-    backdrop-filter: blur(8px);
     margin-inline: auto;
+    backdrop-filter: blur(8px);
   }
 
   table :global(th:not(.group-separator)) {
-    background: rgba(0, 0, 0, 0.4);
     color: white;
+    background: rgb(0 0 0 / 40%);
   }
 
   table :global(th),
   table :global(td),
   table,
   fieldset {
-    border: 1px solid black;
     border-collapse: collapse;
-  }
-
-  fieldset {
-    border-bottom: none;
+    border: 1px solid black;
   }
 
   table :global(td),

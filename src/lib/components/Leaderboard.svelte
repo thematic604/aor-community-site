@@ -68,15 +68,13 @@
   table {
     width: 100%;
     margin-top: 4px;
-
-    border-radius: 8px;
-
     padding: 4px;
+    border-radius: 8px;
   }
 
   abbr {
-    text-decoration: none;
     color: inherit;
+    text-decoration: none;
   }
 
   a {
@@ -100,19 +98,23 @@
   }
 
   td {
+    overflow: hidden;
+
     max-width: min(100px, 15vw);
     padding: 2px;
-    white-space: nowrap;
-    overflow: hidden;
+
     text-overflow: ellipsis;
+    white-space: nowrap;
     vertical-align: middle;
   }
 
   img {
     display: block;
-    margin-block: auto;
-    width: 24px;
+
     aspect-ratio: 1;
+    width: 24px;
+    margin-block: auto;
+
     object-fit: contain;
     object-position: center;
   }

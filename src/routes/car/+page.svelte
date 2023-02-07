@@ -63,36 +63,39 @@
 
 <style lang="scss">
   h1 {
-    text-transform: lowercase;
-    margin-left: 32px;
-    margin-bottom: 32px;
+    will-change: transform;
+
     width: fit-content;
     height: 68px;
-    will-change: transform;
+    margin-bottom: 32px;
+    margin-left: 32px;
+
+    text-transform: lowercase;
   }
 
   img {
+    will-change: transform;
+
     position: absolute;
     top: 0;
     left: 0;
+
     width: 130%;
     height: 100%;
-
-    will-change: transform;
 
     object-fit: cover;
   }
 
   .swiper-container {
+    --swiper-navigation-color: #fff;
+
     position: relative;
     height: 100%;
 
-    --swiper-navigation-color: #fff;
-
     :global(.swiper-slide) {
-      padding-top: 120px;
       width: calc(256px + 2 * 8px);
       height: 100%;
+      padding-top: 120px;
     }
 
     :global(.swiper-slide[no-content="true"]) {

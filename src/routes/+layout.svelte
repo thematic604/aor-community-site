@@ -11,40 +11,20 @@
 </main>
 
 <style lang="scss" global>
-  //noinspection CssInvalidAtRule
-  @layer base {
-    html {
-      -webkit-tap-highlight-color: transparent;
-    }
-  }
-
-  @media (hover: hover) {
-    ::-webkit-scrollbar {
-      width: 8px;
-    }
-    ::-webkit-scrollbar-track {
-      background-color: transparent;
-    }
-    ::-webkit-scrollbar-thumb {
-      background-color: rgba(190, 190, 190, 0.3);
-      border-radius: 4px;
-    }
-  }
-
   html {
     box-sizing: border-box;
   }
 
   *,
-  *:before,
-  *:after {
+  *::before,
+  *::after {
     box-sizing: inherit;
   }
 
   nav {
-    color: white;
     padding: 8px;
     padding-inline: 16px;
+    color: white;
     background: #000714;
 
     h1 {
@@ -65,7 +45,26 @@
 
     // overflow: hidden;
     height: 100vh;
-
     color: white;
+  }
+
+  @media (hover: hover) {
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background-color: transparent;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background-color: rgb(190 190 190 / 30%);
+      border-radius: 4px;
+    }
+  } // noinspection CssInvalidAtRule
+  @layer base {
+    html {
+      -webkit-tap-highlight-color: transparent;
+    }
   }
 </style>

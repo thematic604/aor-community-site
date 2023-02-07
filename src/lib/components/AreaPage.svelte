@@ -23,26 +23,28 @@
 
 <style lang="scss">
   .content {
-    padding-inline: 8px;
     height: 100%;
+    padding-inline: 8px;
 
     > h2 {
-      text-transform: lowercase;
-      font-size: 56px;
-      margin-inline: 16px;
       margin-block: 16px;
+      margin-inline: 16px;
+      font-size: 56px;
+      text-transform: lowercase;
     }
 
     > :global(img.parallax-background) {
       position: absolute;
+      z-index: -1;
       top: 0;
       left: 0;
+
       width: 100%;
       height: 100%;
-      filter: brightness(0.7);
-      object-position: center;
+
       object-fit: cover;
-      z-index: -1;
+      object-position: center;
+      filter: brightness(0.7);
     }
   }
 </style>

@@ -39,39 +39,39 @@
 
 <style lang="scss">
   h3 {
-    font-size: 32px;
     height: fit-content;
     margin-top: 0;
+    font-size: 32px;
   }
 
   th {
     text-align: left;
   }
+
   td {
+    overflow: visible;
     text-align: right;
     white-space: nowrap;
-    overflow: visible;
   }
 
   section {
-    text-transform: lowercase;
-
-    width: 256px;
-    height: 320px;
-
-    padding: 16px;
-    border-radius: 8px;
-    box-sizing: border-box;
-
-    backdrop-filter: brightness(0.5);
-
-    transition: all 0.2s ease-in-out;
+    will-change: filter;
 
     display: grid;
-    place-items: center;
     grid-template-rows: 1fr auto;
+    place-items: center;
 
-    will-change: filter;
+    box-sizing: border-box;
+    width: 256px;
+    height: 320px;
+    padding: 16px;
+
+    text-transform: lowercase;
+
+    backdrop-filter: brightness(0.5);
+    border-radius: 8px;
+
+    transition: all 0.2s ease-in-out;
   }
 
   :global(.swiper-slide) > section {
@@ -92,8 +92,8 @@
   // }
 
   img {
-    width: 32px;
     aspect-ratio: 1;
+    width: 32px;
     object-fit: contain;
   }
 </style>

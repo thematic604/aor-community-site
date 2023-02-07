@@ -24,17 +24,17 @@
     <td class="no-border" colSpan={SETUP.length - 2} />
   {:else}
     {#each groupValues as groupValue, i}
-      <td style="background: hsla({120 * percentages[i]}deg, 60%, 50%, 0.8)">{groupValue || "?"}</td>
+      <td style="background: hsl({120 * percentages[i]}deg 60% 50% / 80%)">{groupValue || "?"}</td>
     {/each}
   {/if}
 </tr>
 
 <style lang="scss">
   td {
-    color: white;
-    text-shadow: 0 0 3px black;
     font-weight: bold;
+    color: white;
     text-align: center;
+    text-shadow: 0 0 3px black;
   }
 
   .no-border {

@@ -49,26 +49,27 @@
   $font-size: 24px;
 
   form {
+    box-sizing: border-box;
+    width: fit-content;
     margin-top: 16px;
     margin-inline: auto;
-    width: fit-content;
 
     border-radius: 4px;
-    box-sizing: border-box;
   }
 
   form > :global(.swiper) {
     --swiper-navigation-size: 24px;
-    font-weight: bold;
-    font-size: $font-size;
-    text-transform: lowercase;
+
     width: 256px;
+    font-size: $font-size;
+    font-weight: bold;
+    text-transform: lowercase;
   }
 
   .group {
     width: fit-content;
-    margin-inline: auto;
     margin-block: 16px;
+    margin-inline: auto;
   }
 
   fieldset {
@@ -84,12 +85,11 @@
   input[name="reverse"]::after,
   input[name="weather"]::after {
     cursor: pointer;
-    color: white;
+    content: attr(value);
 
     font-size: $font-size;
     font-weight: bold;
-
-    content: attr(value);
+    color: white;
     text-transform: lowercase;
   }
 
@@ -100,14 +100,14 @@
     transition: all 0.2s ease-in-out;
   }
 
+  input:checked {
+    filter: brightness(1);
+  }
+
   @media (hover: hover) {
     input:hover {
       transform: translateY(-2px);
       filter: brightness(0.9);
     }
-  }
-
-  input:checked {
-    filter: brightness(1);
   }
 </style>

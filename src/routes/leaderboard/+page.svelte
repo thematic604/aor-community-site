@@ -44,18 +44,19 @@
 
   .stage-form {
     position: absolute;
+    z-index: 2;
     top: calc(#{$stage-slide-height} + 140px);
     left: 50%;
     transform: translateX(-50%);
-    z-index: 2;
-    background-color: #0006;
-    height: min(calc(100% - (#{$stage-slide-height} + 140px + 8px)), 550px);
-    width: min(410px, calc(100% - 8px));
-
-    border-radius: 4px;
-    padding: 2px;
 
     overflow-y: auto;
+
+    width: min(410px, calc(100% - 8px));
+    height: min(calc(100% - (#{$stage-slide-height} + 140px + 8px)), 550px);
+    padding: 2px;
+
+    background-color: #0006;
+    border-radius: 4px;
   }
 
   @media (hover: hover) {
@@ -65,14 +66,14 @@
   }
 
   .swiper-container {
+    --swiper-navigation-color: #fff;
+
     display: flex;
     height: 100%;
 
-    --swiper-navigation-color: #fff;
-
     > :global(.swiper > .swiper-wrapper > .swiper-slide) {
-      backface-visibility: hidden;
       overflow: hidden;
+      backface-visibility: hidden;
     }
 
     @media (hover: none) {

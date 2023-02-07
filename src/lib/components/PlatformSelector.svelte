@@ -24,11 +24,11 @@
   input[name="platform"] {
     cursor: pointer;
 
-    background-size: contain;
-    border-radius: 0;
-
     width: 32px;
     height: 32px;
+
+    background-size: contain;
+    border-radius: 0;
 
     transition: all 0.2s ease-in-out;
   }

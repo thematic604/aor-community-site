@@ -26,23 +26,25 @@
 
 <style lang="scss">
   .about {
-    background: rgba(0, 7, 20, 0.9);
     padding-inline: 12px;
+    background: rgb(0 7 20 / 90%);
   }
 
   .mods {
     display: grid;
-    padding: 12px;
-    gap: 12px;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 12px;
+    padding: 12px;
   }
 
   .background {
     position: fixed;
-    object-fit: cover;
+    z-index: -1;
+
     width: 100%;
     height: 100%;
-    z-index: -1;
+
+    object-fit: cover;
   }
 
   em {
