@@ -1,11 +1,8 @@
 <script lang="ts">
   import {cars} from "$lib/leaderboard/data/cars"
-  import {Swiper, SwiperSlide} from "swiper/svelte"
-
-  import "swiper/css"
   import Car from "$lib/components/Car.svelte"
   import {groupNames} from "$lib/leaderboard/data/stage/group"
-  import {Controller, HashNavigation, Navigation, Parallax} from "swiper"
+  import {swiper} from "../../lib/components/swiper"
 
   let controlledSwiper = null
 
@@ -32,33 +29,33 @@
 
 <div class="swiper-container">
   <img data-swiper-parallax="-23%" src="/processed/areas/japan-1920.webp" alt="background" />
-  <Swiper modules={[Controller]} on:swiper={setControlledSwiper} slidesPerView="auto">
+  <swiper-container use:swiper on:swiper={setControlledSwiper} slides-per-view="auto">
     {#each carSlides as { car, carIndex, groupName }}
-      <SwiperSlide no-content={carIndex !== 0}>
+      <swiper-slide no-content={carIndex !== 0}>
         {#if carIndex === 0}
           <h1>{groupName}</h1>
         {/if}
-      </SwiperSlide>
+      </swiper-slide>
     {/each}
-  </Swiper>
-  <Swiper
-    modules={[Parallax, Navigation, HashNavigation, Controller]}
+  </swiper-container>
+  <swiper-container
+    use:swiper
     navigation={true}
     parallax={false}
-    centeredSlides={true}
-    hashNavigation={{watchState: true}}
+    centered-slides={true}
+    hash-navigation={{watchState: true}}
     controller={{control: controlledSwiper}}
-    slidesPerView="auto"
+    slides-per-view="auto"
   >
     {#each carSlides as { car, carIndex, groupName }}
-      <SwiperSlide data-hash={car.name.replace(/\s/g, "-")}>
+      <swiper-slide data-hash={car.name.replace(/\s/g, "-")}>
         {#if carIndex === 0}
           <!--<h1>{groupName}</h1>-->
         {/if}
         <Car {car} />
-      </SwiperSlide>
+      </swiper-slide>
     {/each}
-  </Swiper>
+  </swiper-container>
 </div>
 
 <style lang="scss">
@@ -92,18 +89,18 @@
     position: relative;
     height: 100%;
 
-    :global(.swiper-slide) {
+    swiper-slide {
       width: calc(256px + 2 * 8px);
       height: 100%;
       padding-top: 120px;
     }
 
-    :global(.swiper-slide[no-content="true"]) {
+    swiper-slide[no-content="true"] {
       width: 20px;
     }
 
-    :global(.swiper-button-next),
-    :global(.swiper-button-prev) {
+    swiper-container::part(button-next),
+    swiper-container::part(button-prev) {
       // top: 275px;
     }
 

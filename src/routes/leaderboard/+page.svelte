@@ -1,12 +1,9 @@
 <script lang="ts">
   import {areas} from "$lib/leaderboard/data/stage/area"
-  import {Swiper, SwiperSlide} from "swiper/svelte"
-  import {HashNavigation, Navigation, Parallax} from "swiper"
-  import "swiper/css"
-  import "swiper/css/navigation"
   import AreaPage from "$lib/components/AreaPage.svelte"
   import StageForm from "$lib/components/StageForm.svelte"
   import Leaderboard from "$lib/components/Leaderboard.svelte"
+  import {swiper} from "../../lib/components/swiper"
 
   let platform: number
   let weather: string
@@ -17,13 +14,13 @@
 </script>
 
 <section class="swiper-container">
-  <Swiper
-    modules={[Parallax, Navigation, HashNavigation]}
+  <swiper-container
+    use:swiper
     navigation={true}
-    hashNavigation={{watchState: true}}
-    slidesPerView={1}
+    hash-navigation={{watchState: true}}
+    slides-per-view={1}
     parallax={true}
-    on:activeIndexChange={swiper => (area = areas[swiper.detail[0].activeIndex].id)}
+    on:activeindexchange={swiper => (area = areas[swiper.detail[0].activeIndex].id)}
   >
     <div slot="container-start" class="stage-form">
       <StageForm bind:platform bind:weather bind:direction bind:group />
@@ -32,11 +29,11 @@
     </div>
 
     {#each areas as area}
-      <SwiperSlide data-hash={area.name.toLowerCase()}>
+      <swiper-slide data-hash={area.name.toLowerCase()}>
         <AreaPage {area} bind:stage />
-      </SwiperSlide>
+      </swiper-slide>
     {/each}
-  </Swiper>
+  </swiper-container>
 </section>
 
 <style lang="scss">
@@ -71,7 +68,7 @@
     display: flex;
     height: 100%;
 
-    > :global(.swiper > .swiper-wrapper > .swiper-slide) {
+    > swiper-container > swiper-slide {
       overflow: hidden;
       backface-visibility: hidden;
     }

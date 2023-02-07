@@ -1,0 +1,13 @@
+import {Canvas, Meta, Story} from "@storybook/blocks"
+import * as CarStories from "./Car.stories"
+
+<Meta of={CarStories}>
+
+# Car
+
+A car thingo
+
+<Canvas>
+  <Story of={CarStories.CarStory} />
+</Canvas>
+

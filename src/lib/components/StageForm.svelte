@@ -2,12 +2,8 @@
   import {leaderboardWeathers} from "../leaderboard/data/stage/weather"
   import {leaderboardDirection} from "../leaderboard/data/stage/direction"
   import {groups} from "../leaderboard/data/stage/group"
-  import {Swiper, SwiperSlide} from "swiper/svelte"
-
-  import "swiper/css"
-  import "swiper/css/navigation"
-  import {Navigation} from "swiper"
   import PlatformSelector from "$lib/components/PlatformSelector.svelte"
+  import {swiper} from "./swiper"
 
   export let platform = 2
   export let weather = "Dry"
@@ -30,19 +26,19 @@
     <input type="checkbox" name="reverse" value="reverse" bind:checked={reverseChecked} />
   </fieldset>
 
-  <Swiper
-    modules={[Navigation]}
-    slidesPerView={1}
-    centeredSlides={true}
+  <swiper-container
+    use:swiper
+    slides-per-view={1}
+    centered-slides={true}
     navigation={true}
-    on:activeIndexChange={swiper => (group = groups[swiper.detail[0].activeIndex].id)}
+    on:activeindexchange={swiper => (group = groups[swiper.detail[0].activeIndex].id)}
   >
     {#each groups as leaderboardGroup}
-      <SwiperSlide>
+      <swiper-slide>
         <p class="group">{leaderboardGroup.name}</p>
-      </SwiperSlide>
+      </swiper-slide>
     {/each}
-  </Swiper>
+  </swiper-container>
 </form>
 
 <style lang="scss">
@@ -57,7 +53,7 @@
     border-radius: 4px;
   }
 
-  form > :global(.swiper) {
+  form > swiper-container {
     --swiper-navigation-size: 24px;
 
     width: 256px;

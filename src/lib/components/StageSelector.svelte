@@ -1,28 +1,25 @@
 <script lang="ts">
-  import {Swiper, SwiperSlide} from "swiper/svelte"
-  import "swiper/css/effect-cards"
-  import "swiper/css"
-  import {EffectCards, Mousewheel} from "swiper"
   import type {Area} from "../leaderboard/data/stage/area"
   import Image from "./Image.svelte"
+  import {swiper} from "./swiper"
 
   export let area: Area
   export let stage = area.stages[0].id
 </script>
 
 <div class="container">
-  <Swiper
-    modules={[EffectCards, Mousewheel]}
+  <swiper-container
+    use:swiper
     effect="cards"
-    grabCursor={true}
+    grab-cursor={true}
     nested={true}
-    on:activeIndexChange={swiper => {
+    on:activeindexchange={swiper => {
       stage = area.stages[swiper.detail[0].activeIndex].id
     }}
     mousewheel
   >
     {#each area.stages as stage}
-      <SwiperSlide>
+      <swiper-slide>
         <Image
           src="stages/{area.name.toLowerCase()}/cover/{area.name.toLowerCase()}_{stage.id}"
           alt={area.name}
@@ -35,9 +32,9 @@
           sizes={[256, 128, 480, 512]}
         />
         <p>{stage.name}</p>
-      </SwiperSlide>
+      </swiper-slide>
     {/each}
-  </Swiper>
+  </swiper-container>
 </div>
 
 <style lang="scss">
@@ -51,13 +48,13 @@
     font-weight: bold;
     color: black;
 
-    > :global(.swiper > .swiper-wrapper > .swiper-slide) {
+    > swiper-container > swiper-slide {
       height: $stage-slide-height;
       padding: 8px;
       background-color: white;
     }
 
-    > :global(.swiper) {
+    > swiper-container {
       overflow: visible;
     }
 
