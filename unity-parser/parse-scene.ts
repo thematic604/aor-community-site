@@ -5,8 +5,12 @@ import * as path from "path"
 import fs from "fs"
 import {Image} from "image-js"
 import {Vector3} from "three"
+import {configDotenv} from "dotenv";
 
-const dumpPath = "E:/Games/aor-dump/artofrally"
+configDotenv()
+
+const dumpPath = path.resolve(process.env.GAME_DUMP_PATH)
+console.log('Using', dumpPath)
 
 const stages = glob.sync(
   path.posix.join(dumpPath.replaceAll(path.sep, path.posix.sep), "Assets/Scene/_Scenes/Stages/**/*.unity"),
