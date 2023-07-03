@@ -1,15 +1,13 @@
-<script lang="ts">
+<script>
   import "$lib/style/font.scss"
-  import {page} from "$app/stores"
 </script>
 
 <main>
   <nav class="title">
-    <h1>{$page.route.id}</h1>
+    <h1><a href="/">AOR Wiki</a></h1>
     <ul>
-      <li>Wiki</li>
-      <li>Mods</li>
-      <li>Leaderboard</li>
+      <li><a href="/mods">Mods</a></li>
+      <li><a href="/leaderboard">Leaderboard</a></li>
     </ul>
   </nav>
   <slot />
@@ -37,6 +35,11 @@
     color: white;
 
     background: #000714;
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
 
     h1 {
       font-size: 24px;

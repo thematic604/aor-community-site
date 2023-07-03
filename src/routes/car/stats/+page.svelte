@@ -1,5 +1,5 @@
 <script>
-  import {SETUP} from "$lib/leaderboard/config-file"
+  import SETUP from "../../../assets/car-stats/car-setups.json"
   import GroupRow from "$lib/components/GroupRow.svelte"
 </script>
 
