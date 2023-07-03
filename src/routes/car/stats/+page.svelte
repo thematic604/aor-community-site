@@ -1,4 +1,4 @@
-<script lang="ts">
+<script>
   import {SETUP} from "$lib/leaderboard/config-file"
   import GroupRow from "$lib/components/GroupRow.svelte"
 </script>

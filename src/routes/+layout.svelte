@@ -6,6 +6,11 @@
 <main>
   <nav class="title">
     <h1>{$page.route.id}</h1>
+    <ul>
+      <li>Wiki</li>
+      <li>Mods</li>
+      <li>Leaderboard</li>
+    </ul>
   </nav>
   <slot />
 </main>
@@ -22,14 +27,26 @@
   }
 
   nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
     padding: 8px;
     padding-inline: 16px;
+
     color: white;
+
     background: #000714;
 
     h1 {
       font-size: 24px;
       text-transform: lowercase;
+    }
+
+    ul {
+      display: flex;
+      gap: 8px;
+      list-style: none;
     }
   }
 
