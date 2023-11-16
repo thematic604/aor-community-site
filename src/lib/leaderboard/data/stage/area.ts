@@ -102,4 +102,17 @@ export const areas: Area[] = [
       {name: "kalabakan valley", id: 6},
     ],
   },
+  {
+    name: "Australia (DLC)",
+    id: "Australia",
+    image: "Australia",
+    stages: [
+      {name: "gum scrub", id: 1},
+      {name: "toorooka", id: 2},
+      {name: "nulla nulla", id: 3},
+      {name: "comara canyon", id: 4},
+      {name: "lake lucernia", id: 5},
+      {name: "wombamurra", id: 6},
+    ],
+  },
 ]
